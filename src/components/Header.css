@@ -1,0 +1,79 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.cliste-logo{
+    margin-right: 10px;
+}
+.page-nav{
+        height:3.18rem;
+        width:34.3rem;
+        background-color: #F2F2F2;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 8px;
+        padding: 16px 24px;
+}
+
+.icons-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+
+.icon{
+    background-color: #F2F2F2;
+    color:#363638;
+}
+
+.icons-nav img{
+    height:22.72px;
+    width:24.26px;
+}
+
+.nav-buttons{
+    background-color: #F2F2F2;
+    color:#363638;
+    border:none;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.nav-buttons:hover {
+    background-color: #fff;
+    color:#363638;
+    border-radius: 27px;
+    padding:4px, 10px, 4px, 10px;
+    
+}
+.nav-buttons-icon{
+    background-color: #F2F2F2;
+    color:#363638;
+    border:none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 13px;
+    margin-right: 12px;
+}
+
+.nav-buttons-icon:hover{
+    background-color: #F2F2F2;
+    color:#363638;
+}
+
+.nav-buttons:active {
+    background-color: #fff;
+    color:#363638;
+    border-radius: 27px;
+    padding:4px, 10px, 4px, 10px;
+    
+}

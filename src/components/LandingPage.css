@@ -1,0 +1,168 @@
+.heading{
+    font-weight: 600;
+    font-size:56px;
+    text-align: left;
+}
+
+.intro{
+    padding-top: 128px;
+    text-align: left;
+    justify-content: space-between;
+    padding-bottom:96px;
+}
+
+.text{
+    text-align: left;
+}
+
+.intro-btn{
+    background-color: #315C66;
+    color:#FAFAFA;
+    font-size:16px;
+    font-weight: 400;
+    padding:10px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 1.5rem;
+}
+.telephone-icon{
+    margin-right: 8px;
+    align-content: center;
+}
+
+.container{
+    
+    margin:0 !important;
+    padding:0;
+}
+.working{
+    background-color: #048B9E;
+    width:100%;
+    height:764px;
+    padding: 80px 195px;
+}
+.working-heading{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color:#FAFAFA
+}
+.card-detail{
+    margin-top:56px;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: #048B9E;
+    border:none;
+    color:#FAFAFA;
+}
+.card-heading{
+    font-size: 20px;
+    font-weight: 800;
+}
+.card-text{
+    color:#FAFAFA;
+    font-size: 20px;
+    font-weight: 400;
+}
+/* .card img{
+    height:305px;
+    width:380px;
+} */
+
+.app-section{
+    padding:80px 195px;
+    background-color: #315C66;
+    text-align: center;
+}
+
+.app-section-sub-heading{
+    font-size: 32px;
+    font-weight: 500;
+    color:#FAFAFA;
+    margin-bottom: 30px;
+}
+.video-section{
+    background-color: #fff;
+    width:100%;
+    height:450px;
+   
+
+}
+
+.app-section-text{
+    color:#FAFAFA;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom:82.4px;
+}
+
+.app-section-heading{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color:#FAFAFA;
+    margin-bottom:23px
+}
+.app-section-image-video{
+    justify-content: space-between;
+}
+
+.app-section-download{
+    text-align: left;
+    margin-top:28px;
+}
+.app-section-video{
+    padding-left:130px;
+    
+}
+.mockup-section{
+    padding:80px 195px;
+    background-color: #363638;
+    text-align: center;
+}
+
+.mockup-section-heading{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color:#FAFAFA;
+    margin-bottom:23px
+}
+.mockup-section-text{
+    color:#FAFAFA;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom:82.4px;
+}
+.mockup-section-detail{
+    margin-bottom: 56px;
+}
+.mockup-video{
+    background-color: #FAFAFA;
+    padding:10px;
+    border:none;
+    color:#363638;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;;
+}
+.tech-adv-section{
+    padding:80px 195px;
+    text-align: center;
+    color:#363638;
+
+}
+.tech-adv-section-heading{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color:#363638;
+    margin-bottom: 100px;
+}
+.tech-adv-section-text{
+    padding-right:20px;
+    background-color: #FAFAFA;
+    color:#363638
+}
