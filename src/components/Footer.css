@@ -3,3 +3,97 @@
     color: #fafafa;
     padding:80px 195px;
 }
+
+.footer-heading{
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom:16px;
+    text-align: center;
+}
+.get-updates-field{
+    width:23rem;
+    margin:1.6rem auto 8.25rem auto ;
+    height:3.43rem
+}
+.form-control{
+    padding: 16px;
+    font-size: 20px;
+    font-weight: 400;
+    height:55px;
+    width:248px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.input-group-text{
+    padding:16px 11px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #F9461C;
+    color:#fff;
+    height:55px;
+    border:none;
+    border-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:#363638;
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:#363638;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color:#363638;
+}
+.footer-nav-links{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.footer-nav-links a{
+    text-decoration: none;
+    color:#fafafa;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 40px;
+}
+.footer-text{
+    text-align: left;;
+}
+.footer-download-app-links{
+    text-align: left;
+}
+
+.download-links{
+    display:flex;
+    align-items: center;
+}
+.app-download-links{
+    margin-right: 18px;;
+    font-size: 20px;
+}
+
+.contact-section-heading{
+    font-size: 20px;
+    font-weight: 800;
+    
+}
+
+.contact-section{
+    text-align: left;;
+}
+.contact-text{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer-copyright{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-top:68px
+}

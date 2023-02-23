@@ -1,0 +1,45 @@
+.app-section{
+    padding:80px 195px;
+    background-color: #315C66;
+    text-align: center;
+}
+
+.app-section-sub-heading{
+    font-size: 32px;
+    font-weight: 500;
+    color:#FAFAFA;
+    margin-bottom: 30px;
+}
+.video-section{
+    background-color: #fff;
+    width:100%;
+    height:450px;
+   
+
+}
+.app-section-text{
+    color:#FAFAFA;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom:82.4px;
+}
+
+.app-section-heading{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color:#FAFAFA;
+    margin-bottom:23px
+}
+.app-section-image-video{
+    justify-content: space-between;
+}
+
+.app-section-download{
+    text-align: left;
+    margin-top:28px;
+}
+.app-section-video{
+    padding-left:130px;
+    
+}

@@ -1,27 +1,30 @@
 import '../components/Header.css';
 import { Link } from "react-router-dom";
 import vector from '../assets/images/vector.png';
-import AppleIcon from '@mui/icons-material/Apple';
+import { Apple, GooglePlay } from 'react-bootstrap-icons';
 import Button from 'react-bootstrap/Button';
-import playstore from '../assets/images/playstore.png';
-import appleicon from '../assets/images/appleicon.png';
+import Technology from './TechnologyPage';
+import {useState} from 'react';
 const Header =()=>{
+
+    const pages_name= ['PRODUCT', 'TECHNOLOGY', 'APLICATION','RESOURCES']
+    const [selectedPageId, setSelectedPageId] = useState(0);
     return(
         <>
-            <div className='wrapper'>
+            <div className='wrapper '>
                 <div className='navbar'>
-                    <div className='font-headings page-nav'>
+                    <div className='font-headings page-nav glassmorphism'>
                         <img src={vector} alt="cliste" className="cliste-logo"></img>
-                        <Button className='nav-buttons'>PRODUCT</Button>
-                        <Button className='nav-buttons'>TECHNOLOGY</Button>
-                        <Button className='nav-buttons'>APPLICATION</Button>
+                        <Link to ="/"><Button className='nav-buttons'>PRODUCT</Button></Link>
+                        <Link to ="/technology"><Button className='nav-buttons'>TECHNOLOGY</Button></Link>
+                        <Link to ="/application"><Button className='nav-buttons'>APPLICATION</Button></Link>
                         <Button className='nav-buttons'>RESOURCES</Button>
                     </div>
-                    <div className='font-headings icons-nav'>
-                        <Button className='nav-buttons-icon'>GET CLISTE</Button>
-                        <Button className='nav-buttons-icon'>FAQ</Button>
-                        <Button className='nav-buttons-icon'><img src={appleicon} alt="apple store" ></img></Button>
-                        <Button className='nav-buttons-icon'><img src={playstore} alt="play store" ></img></Button>
+                    <div className='font-headings icons-nav '>
+                        <Button className='nav-buttons-icon glassmorphism'>GET CLISTE</Button>
+                        <Button className='nav-buttons-icon glassmorphism'>FAQ</Button>
+                        <Button className='nav-buttons-icon app-icons glassmorphism'><Apple size="25px"/></Button>
+                        <Button className='nav-buttons-icon app-icons glassmorphism'><GooglePlay size="25px"/></Button>
                     </div>
                 </div>
 

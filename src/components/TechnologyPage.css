@@ -1,0 +1,34 @@
+.tech-cards{
+    background-color: #fafafa;
+    color:#363638;
+    text-align: left;
+ 
+}
+.tech-card-heading{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.tech-card-text{
+    font-size: 20px;
+    font-weight: 400;
+    color:#363638
+}
+.tech-content{
+    margin-bottom: 40px;
+}
+.learning-content{
+    margin-top: 60px;
+}
+.learn-heading{
+    font-size: 48px;
+    font-weight: 700;
+    color:#363638
+}
+.learn-content img{
+    margin-top: 3.5rem
+}
+
+.learn-content{
+        margin-bottom:10rem;
+}

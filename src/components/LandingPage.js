@@ -2,14 +2,41 @@ import Header from '../components/Header';
 import '../components/LandingPage.css';
 import { Button } from 'react-bootstrap';
 import { Telephone, Cart,Play } from 'react-bootstrap-icons';
-import clistemobileapp from '../assets/images/clistemobileapp.png';
 import Partners from './Partners';
+import Footer from './Footer';
+import SenseProduct from './SenseProduct';
+import image1 from '../assets/images/image1.jpg';
+import {useState, useEffect} from "react";
+function useScrollDirection() {
+    const [scrollDirection, setScrollDirection] = useState('up');
+  
+    useEffect(() => {
+      let lastScrollY = window.pageYOffset;
+      const updateScrollDirection = () => {
+        const scrollY = window.pageYOffset;
+        console.log(scrollY)
+        const direction = lastScrollY > 4300 ? "down" : "up";
+        if (direction !== scrollDirection) {
+          setScrollDirection(direction);
+        }
+        lastScrollY = scrollY > 0 ? scrollY : 0;
+      };
+      window.addEventListener("scroll", updateScrollDirection);
+      return () => {
+        window.removeEventListener("scroll", updateScrollDirection);
+      };
+    }, [scrollDirection]);
+  
+    return scrollDirection;
+  }
+  
 const LandingPage =()=>{
-
+    const scrollDirection = useScrollDirection();
     return (
         <>
-        <Header />
-            <div className='wrapper'>
+        {scrollDirection==='up' && <Header />}
+        
+            <div className='content'>
                 <div className='row intro'>
                     <div className='font-headings col-xs-12 col-sm-12 col-md-6 col-lg-6'>
                         <div className='heading'>
@@ -19,8 +46,8 @@ const LandingPage =()=>{
                         <Button className='intro-btn font-pragraphs'><Telephone className='telephone-icon font-pragraphs' /><span>Request a call</span></Button>
                         <Button className='intro-btn font-pragraphs'><Cart className='telephone-icon font-pragraphs' /><span>Buy now</span></Button>
                     </div>
-                    <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6' style={{ height: "34rem", width: "38.7rem", backgroundColor: "#fff" }}>
-                        <p>image section</p>
+                    <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6 hero-image'>
+                        <img src={image1} alt=""/>
                     </div>
                 </div>
             </div> 
@@ -49,31 +76,7 @@ const LandingPage =()=>{
                 </div>
             </div> 
             </div> 
-
-            <div className='app-section'>
-                <div className='font-headings app-section-heading'>There’s an app for that</div>
-                <div className='font-headings app-section-sub-heading'>Track your kitchen food items with cliste Sense</div>
-                <p className='font-pragraphs app-section-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br />incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                </p>
-                <div className='row app-section-image-video'>
-                    <div className='col-xs-12 col-sm-12 col-md-3 col-lg-3'>
-                        <img src={clistemobileapp} alt="cliste-mobile-app" />
-                    </div>
-                    <div className='app-section-video col-xs-12 col-sm-12 col-md-9 col-lg-9'>
-                        <div className=' video-section'>
-
-                        </div>
-                        <div className='app-section-download'>
-                            <Button>
-                                get it on google play
-                            </Button>
-                            <Button>download on the app store</Button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+            <SenseProduct text={"There’s an app for that"}/>
             <div className='mockup-section'>
                 <div className='font-headings mockup-section-heading'>Cliste Sense at fleeting glance</div>
                 <div className='row app-section-image-video'>
@@ -140,6 +143,7 @@ const LandingPage =()=>{
                 {/* partners */}
                     <Partners/>
             </div> 
+            <Footer/>
         </>
     )
 }

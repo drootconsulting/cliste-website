@@ -10,10 +10,10 @@ body {
   
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
 .font-headings{
   font-family: 'Raleway', sans-serif;
@@ -21,10 +21,4 @@ code {
 
 .font-pragraphs{
   font-family: 'Nunito Sans', sans-serif;
-}
-
-.wrapper{
-  padding-left:12rem;
-  padding-right: 12rem;
-  padding-top: 2.5rem;
 }

@@ -1,0 +1,35 @@
+.app-features{
+    padding-left:10rem;
+    padding-right:10rem;
+    text-align: left;
+}
+
+.feature-content{
+    margin-bottom:3rem
+}
+.app-features-text{
+    margin-bottom: 3.6rem;
+    color: #363636;
+    font-size: 48px;
+    font-weight: 700;
+    list-style: 64px;
+}
+
+.feature-card{
+    border:none;
+    border-radius: 0;
+    background-color: #363638;
+    color:#FAFAFA;
+    padding:48px 24px; 
+}
+.feature-card-title{
+    font-weight: 700;
+    font-size: 32px;
+}
+.feature-card-content{
+    font-size: 20px;
+    font-weight: 400;
+}
+.app-feature-content{
+    margin-bottom: 7rem;
+}
