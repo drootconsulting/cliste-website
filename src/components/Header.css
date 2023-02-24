@@ -67,18 +67,22 @@
     
 }
 .nav-buttons-icon{
-    background-color: rgba(242, 242, 242, 0.5);
+    background-color: rgba(242, 242, 242, 0);
     color:#363638;
     border:none;
     font-size: 16px;
     font-weight: 600;
-    padding: 13px;
-    margin-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .nav-buttons-icon:hover{
     background-color: #fff;
     color:#363638;
+    border-radius: 27px;
+    padding:4px, 10px;
 }
 
 .nav-buttons:active {
@@ -93,3 +97,35 @@
     backdrop-filter: blur(10px);
     background-color: rgba(242, 242, 242, 0.5);
 }
+
+.selected{
+    background-color: #fff;
+    border-radius: 27px;
+}
+
+.btn:active{
+    background-color: #fff;
+}
+.links{
+    margin-right:12px;
+    border-radius: 8px;
+    padding:8px;
+}
+
+.nav-buttons-app-icon{
+    background-color: rgba(242, 242, 242, 0);
+    color:#363638;
+    border:none;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-buttons-app-icon:hover{
+    background-color: rgba(242, 242, 242, 0);
+    color:#363638;
+}
+

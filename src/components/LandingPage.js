@@ -5,7 +5,7 @@ import { Telephone, Cart,Play } from 'react-bootstrap-icons';
 import Partners from './Partners';
 import Footer from './Footer';
 import SenseProduct from './SenseProduct';
-import image1 from '../assets/images/image1.jpg';
+import image1 from '../assets/images/temp-img.jpg';
 import {useState, useEffect} from "react";
 function useScrollDirection() {
     const [scrollDirection, setScrollDirection] = useState('up');
@@ -14,7 +14,6 @@ function useScrollDirection() {
       let lastScrollY = window.pageYOffset;
       const updateScrollDirection = () => {
         const scrollY = window.pageYOffset;
-        console.log(scrollY)
         const direction = lastScrollY > 4300 ? "down" : "up";
         if (direction !== scrollDirection) {
           setScrollDirection(direction);
@@ -34,7 +33,7 @@ const LandingPage =()=>{
     const scrollDirection = useScrollDirection();
     return (
         <>
-        {scrollDirection==='up' && <Header />}
+        {scrollDirection==='up' && <Header selectedPageIdx={0}/>}
         
             <div className='content'>
                 <div className='row intro'>
@@ -54,26 +53,27 @@ const LandingPage =()=>{
             <div className="working">
                 <div className='font-headings working-heading'>What it does</div>
                 <div className='row card-detail'>
-                <div className="card col-xs-12 col-sm-12 col-md-4 col-lg-4 font-pragraphs" style={{ width: "18rem",marginRight:"" }}>
-                    <img src="..." className="card-img-top" alt="..." />
+                <div className="card col-xs-12 col-sm-12 col-md-4 col-lg-4 font-pragraphs working-card" >
+                    <img src={image1} className="card-img-top" alt="..." />
                     <div className="card-body">
                         <p className='card-heading'>Card heading</p>
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                </div> <div className="card col-xs-12 col-sm-12 col-md-4 col-lg-4 font-pragraphs" style={{ width: "18rem" }}>
-                    <img src="..." className="card-img-top" alt="..." />
+                </div> 
+                <div className="card col-xs-12 col-sm-12 col-md-4 col-lg-4 font-pragraphs working-card" >
+                    <img src={image1} className="card-img-top" alt="..." />
                     <div className="card-body">
-                    <p className='card-heading'>Card heading</p>
+                        <p className='card-heading'>Card heading</p>
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                </div>
-                <div className="card col-xs-12 col-sm-12 col-md-4 col-lg-4 font-pragraphs" style={{ width: "18rem" }}>
-                    <img src="..." className="card-img-top" alt="..." />
+                </div> 
+                <div className="card col-xs-12 col-sm-12 col-md-4 col-lg-4 font-pragraphs working-card" >
+                    <img src={image1} className="card-img-top" alt="..." />
                     <div className="card-body">
-                    <p className='card-heading'>Card heading</p>
+                        <p className='card-heading'>Card heading</p>
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                </div>
+                </div> 
             </div> 
             </div> 
             <SenseProduct text={"There’s an app for that"}/>
@@ -84,9 +84,7 @@ const LandingPage =()=>{
                         <p className='font-pragraphs mockup-section-text'>Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur </p>
                     </div>
                     <div className='app-section-video col-xs-12 col-sm-12 col-md-9 col-lg-9'>
-                        <div className=' video-section'>
-
-                        </div>
+                        <img src={image1} style={{width:"100%"}}/>
                         <div className='app-section-download'>
                             <Button className='mockup-video'>
                                 <Play height="20" width="20"/>
@@ -101,39 +99,39 @@ const LandingPage =()=>{
 
             <div className="tech-adv-section">
                 <div className='font-headings tech-adv-section-heading'>Technological Advancement in IOT space <br />in context of automated Kitchen (Blogs)</div>
-                <div className='row card-detail'>
+                <div className='row tech-card-detail'>
                     <div className="card tech-adv-section-text col-xs-12 col-sm-6 col-md-8 col-lg-8 font-pragraphs" >
-                        <img src="..." className="card-img-top" alt="..." />
-                        <div className="card-body">
+                        <img src={image1} className="card-img-top" alt="..." style={{width:'100%', height:'50%', borderRadius:"0"}}/>
+                        <div className="card-body tech-adv-text">
                             <p className='card-heading'>Card heading</p>
                             <p className="card-text" style={{color:"#363638"}}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                     <div className="card tech-adv-section-text col-xs-12 col-sm-6 col-md-4 col-lg-4 font-pragraphs" >
-                        <img src="..." className="card-img-top" alt="..." />
+                        <img src={image1} className="card-img-top" alt="" style={{ borderRadius:"0"}}/>
                         <div className="card-body">
                             <p className='card-heading'>Card heading</p>
                             <p className="card-text" style={{color:"#363638"}}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                 </div>
-                <div className='row card-detail'>
+                <div className='row tech-card-detail'>
                     <div className="card  tech-adv-section-text col-xs-12 col-sm-12 col-md-4 col-lg-4 font-pragraphs" >
-                        <img src="..." className="card-img-top" alt="..." />
+                        <img src={image1} className="card-img-top" alt="..." style={{ borderRadius:"0"}}/>
                         <div className="card-body">
                             <p className='card-heading'>Card heading</p>
                             <p className="card-text " style={{color:"#363638"}}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                     <div className="card tech-adv-section-text col-xs-12 col-sm-12 col-md-4 col-lg-4 font-pragraphs" >
-                        <img src="..." className="card-img-top" alt="..." />
+                        <img src={image1} className="card-img-top" alt="..." style={{ borderRadius:"0"}}/>
                         <div className="card-body">
                             <p className='card-heading'>Card heading</p>
                             <p className="card-text" style={{color:"#363638"}}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                     <div className="card tech-adv-section-text col-xs-12 col-sm-12 col-md-4 col-lg-4 font-pragraphs" >
-                        <img src="..." className="card-img-top" alt="..." />
+                        <img src={image1}className="card-img-top" alt="..." style={{ borderRadius:"0"}}/>
                         <div className="card-body">
                             <p className='card-heading'>Card heading</p>
                             <p className="card-text" style={{color:"#363638"}}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>

@@ -1,9 +1,9 @@
 import '../components/Partners.css';
-const Partners=()=>{
+const Partners=({marginTop})=>{
 
     return(
         <>
-        <div className='partners'>
+        <div className='partners' style={{marginTop:marginTop}}>
         <div className='partners-heading'>
         Our Partners
         </div>

@@ -1,0 +1,90 @@
+.story-content{
+    text-align: left;
+    margin-bottom: 144px;
+}
+
+.story-content-title{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.founder-message-title{
+    font-size: 48px;
+    font-weight: 700;
+}
+.founder-message-text{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.founder-message{
+    margin-bottom: 4.8rem;
+}
+
+.team-section{
+    background-color: #048B9E;
+    padding:5rem 12rem 13rem 12rem;
+    position:relative;
+}
+
+.team-section-heading{
+    color:#FAFAFA;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom:3.5rem
+}
+.team-cards{
+    background-color: #048B9E;
+    text-align: center;
+    
+}
+.team-cards img{
+    height:11.12rem;
+    border-radius: 50%;
+    width:50%;
+    margin-right:auto;
+    margin-left:auto
+}
+.team-card-title{
+    padding-top:12px
+}
+.team-card-heading-1{
+    color:#FAFAFA;
+    font-size: 18px;
+    font-weight: 600;
+}
+.team-card-heading-2{
+    color:#FAFAFA;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.team-section-2{
+    margin-top:6rem;
+}
+
+.sticky-box{
+   /* height:14rem;
+    width:95.6rem; */
+    background-color: #315C66;
+    padding:50px;
+    position:absolute;
+    top:88%;
+    left:10%;
+    width:80%
+    
+}
+.sticky-box-heading{
+    color:#FAFAFA;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.sticky-box-text{
+    font-size:20px;
+    font-weight:400;
+    color:#FAFAFA
+}
+.team-section-1{
+    margin-bottom:120px;
+}

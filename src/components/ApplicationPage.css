@@ -2,6 +2,7 @@
     padding-left:10rem;
     padding-right:10rem;
     text-align: left;
+    margin-top:10rem
 }
 
 .feature-content{
@@ -32,4 +33,12 @@
 }
 .app-feature-content{
     margin-bottom: 7rem;
+}
+
+.feature-content-card{
+    padding-left:0
+}
+
+.feature-card img{
+    border-radius: 0;
 }

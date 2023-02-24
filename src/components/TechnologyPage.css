@@ -2,11 +2,13 @@
     background-color: #fafafa;
     color:#363638;
     text-align: left;
+    padding-left:0
  
 }
 .tech-card-heading{
     font-size: 32px;
     font-weight: 700;
+
 }
 
 .tech-card-text{
@@ -31,4 +33,7 @@
 
 .learn-content{
         margin-bottom:10rem;
+}
+.tech-cards-content{
+    padding-left:0
 }

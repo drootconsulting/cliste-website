@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap';
 import clistemobileapp from '../assets/images/clistemobileapp.png';
 import appstore from '../assets/images/appstore.png';
 import googleplay from '../assets/images/googleplay.png';
+import image1 from '../assets/images/temp-img.jpg';
 const SenseProduct=({text})=>{
         return(
 
@@ -17,9 +18,7 @@ const SenseProduct=({text})=>{
                         <img src={clistemobileapp} alt="cliste-mobile-app" />
                     </div>
                     <div className='app-section-video col-xs-12 col-sm-12 col-md-9 col-lg-9'>
-                        <div className=' video-section'>
-
-                        </div>
+                        <img src={image1} style={{width:'100%'}}/>
                         <div className='app-section-download'>
                             <Button className='play-store-btn'>
                             <img src={googleplay} alt="Google Play Store"/>

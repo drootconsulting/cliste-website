@@ -41,9 +41,7 @@
 }
 .working{
     background-color: #048B9E;
-    width:100%;
-    height:764px;
-    padding: 80px 195px;
+    padding: 80px 12rem;
 }
 .working-heading{
     text-align: center;
@@ -72,10 +70,7 @@
     font-size: 20px;
     font-weight: 400;
 }
-/* .card img{
-    height:305px;
-    width:380px;
-} */
+
 
 .mockup-section{
     padding:80px 195px;
@@ -109,7 +104,7 @@
     border-radius: 4px;;
 }
 .tech-adv-section{
-    padding:80px 195px;
+    padding:80px 12rem;
     text-align: center;
     color:#363638;
 
@@ -124,7 +119,8 @@
 .tech-adv-section-text{
     padding-right:20px;
     background-color: #FAFAFA;
-    color:#363638
+    color:#363638;
+    
 }
 .play-store-btn{
     padding:0;
@@ -137,4 +133,22 @@
 .hero-image {
     display: flex;
     justify-content: flex-end;
+}
+
+.hero-image img{
+    height:34.4rem;
+    width:38.6rem;
+}
+.working-card{
+    width:23.7rem;
+    background-color: #048B9E;
+
+}
+
+.working-card img{
+    border-radius: 0;
+}
+.tech-adv-text{
+    text-align: left;
+    padding-left:0
 }
