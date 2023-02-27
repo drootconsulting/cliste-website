@@ -8,7 +8,7 @@ const Footer =()=>{
             <div className='footer-heading font-headings'>
                 Get Cliste updates.
             </div>
-            <p className='font-pragraphs'>
+            <p className='font-pragraphs footer-text'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br /> sed do eiusmod tempor incididunt ut labore et dolore <br />magna aliqua. Ut enim ad minim veniam, quis nostrud
             </p>
             <div className="input-group get-updates-field">
@@ -45,7 +45,7 @@ const Footer =()=>{
                         <Apple className='app-download-links'/>
                         <GooglePlay className='app-download-links'/>
                     </div>
-                        <p className='font-pragraphs footer-text'>
+                        <p className='font-pragraphs footer-text desktop-view'>
                         Seamless mobile experiences <br/>has been curated to make sure <br/>the platform is accessible and <br/>easy to navigate for all users
                         </p>
                 </div>

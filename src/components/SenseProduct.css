@@ -37,3 +37,44 @@
     padding-left:130px;
     
 }
+
+
+@media screen and (max-width:768px){
+    .app-section{
+        padding: 3rem 1rem;
+
+    }
+
+    .app-section-heading{
+        font-size: 32px;
+    }
+
+    .app-section-sub-heading{
+        font-size: 24px;
+    }
+
+    .desktop-view{
+        display: none !important;
+    }
+    .app-section-video{
+        padding-left:1rem
+    }
+    .app-section-download{
+
+    }
+    .app-section-download img{
+        width: 9rem;
+
+    }
+    .app-section-download img:nth-child(1){
+       margin-right:16px;
+    }
+    .mobile-view{
+        display:block !important;
+        margin-bottom:18px;
+        text-align: left;
+        font-size:16px;
+        margin-top:60px;
+
+    }
+}

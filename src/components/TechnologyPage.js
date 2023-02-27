@@ -92,7 +92,7 @@ const Technology=()=>{
                     <div className='tech-content col-xs-12 col-sm-12 col-md-8 col-lg-8'>
                         <div className="card  tech-cards">
                             <img src={image}className="card-img-top" alt="..." />
-                            <div className="card-body">
+                            <div className="card-body tech-cards-content">
                                 <h5 className="card-title font-headings tech-card-heading">Future Innovations</h5>
                                 <p className="card-text tech-card-text font-pragraphs">Discuss the advanced sensors used in Cliste Sense and how they accurately detect the weight, temperature, and items available in the jar</p>
                             </div>
@@ -101,7 +101,7 @@ const Technology=()=>{
                     <div className='tech-content col-xs-12 col-sm-12 col-md-4 col-lg-4'>
                         <div className="card  tech-cards">
                             <img src={image} className="card-img-top" alt="..." />
-                            <div className="card-body">
+                            <div className="card-body tech-cards-content">
                                 <h5 className="card-title font-headings tech-card-heading">Security and Privacy</h5>
                                 <p className="card-text tech-card-text font-pragraphs">Discuss the measures taken by Cliste to ensure data privacy and device security, providing peace of mind to the users.</p>
                             </div>

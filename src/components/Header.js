@@ -25,7 +25,7 @@ const Header =({selectedPageIdx})=>{
     ]
     return(
         <>
-            <div className='wrapper '>
+            <div className='wrapper desktop'>
                 <div className='navbar'>
                     <div className='font-headings page-nav glassmorphism'>
                         <img src={cliste_logo} alt="cliste" className="cliste-logo"></img>

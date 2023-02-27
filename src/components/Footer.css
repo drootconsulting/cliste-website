@@ -1,7 +1,7 @@
 .footer{
     background-color: #363638;
     color: #fafafa;
-    padding:80px 195px;
+    padding:80px 12rem;
 }
 
 .footer-heading{
@@ -61,9 +61,7 @@
     font-weight: 800;
     line-height: 40px;
 }
-.footer-text{
-    text-align: left;;
-}
+
 .footer-download-app-links{
     text-align: left;
 }
@@ -96,4 +94,37 @@
     font-weight: 400;
     text-align: left;
     margin-top:68px
+}
+.desktop-view{
+    display: block;
+}
+
+@media screen and (max-width:768px){
+    .footer{
+        padding: 4rem 1rem;
+    }
+    /* .footer-text{
+        text-align: left;
+    } */
+    .get-updates-field{
+        width:100%;
+        margin-bottom:3.25rem
+    }
+    .desktop-view{
+        display: none !important;
+    }
+    .footer-nav-links{
+        font-size: 16px;
+    }
+    .contact-text{
+        font-size:16px;
+    }
+    .footer-copyright{
+        margin-top:3rem;
+        margin-bottom: 0;
+    }
+    .contact-section-heading{
+        margin-bottom: 2rem;
+        
+    }
 }

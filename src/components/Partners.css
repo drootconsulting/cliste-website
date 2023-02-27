@@ -8,3 +8,9 @@
 .partners{
     margin-top: 8rem;
 }
+
+@media screen and (max-width:768px){
+    .partners{
+        
+    }
+}

@@ -37,3 +37,29 @@
 .tech-cards-content{
     padding-left:0
 }
+
+@media screen and (max-width:768px){
+    .learn-content{
+        margin-bottom:5rem
+    }
+
+    .learn-content img{
+        margin-top:2rem
+    }
+    .learning-content{
+        margin-top:20px;
+    }
+    .learn-heading{
+        font-size: 24px;
+    }
+
+    .tech-card-heading{
+        font-size: 18px;
+    }
+    .tech-card-text{
+        font-size: 20px;
+    }
+    .tech-content{
+        margin-bottom:1rem
+    }
+}
