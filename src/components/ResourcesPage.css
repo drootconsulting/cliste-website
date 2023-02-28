@@ -36,12 +36,10 @@
 .team-cards{
     background-color: #048B9E;
     text-align: center;
+    width: 80%;
     
 }
 .team-cards img{
-    height:11.12rem;
-    border-radius: 50%;
-    width:50%;
     margin-right:auto;
     margin-left:auto
 }
@@ -69,7 +67,7 @@
     background-color: #315C66;
     padding:50px;
     position:absolute;
-    top:88%;
+    top:91%;
     left:10%;
     width:80%
     
@@ -87,4 +85,45 @@
 }
 .team-section-1{
     margin-bottom:120px;
+}
+.story-text{
+    font-size: 20px;
+    font-weight:400
+}
+
+@media screen and (max-width:768px){
+    .story-content-title{
+        font-size:28px;
+    }
+
+    .story-text{
+        font-size:16px;
+    }
+    .story-content{
+        margin-bottom:4rem;
+    }
+    .founder-message-title{
+        font-size:28px;
+    }
+    .founder-message-text{
+        font-size: 16px;;
+    }
+    .team-section{
+        padding:3rem 3rem 3rem 3rem;
+        margin-bottom:7rem
+    }
+    .team-section-heading{
+        font-size: 32px;
+        margin-bottom:2rem;
+    }
+    .team-section-1{
+        margin-bottom:0;
+    }
+}
+@media (min-width: 768px) and (max-width: 1440px){
+        .team-section{
+            padding-left:7rem;
+            padding-right:7rem;
+        }
+
 }

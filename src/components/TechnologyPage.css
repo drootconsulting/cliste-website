@@ -37,6 +37,10 @@
 .tech-cards-content{
     padding-left:0
 }
+.learning-text{
+    padding-left:19rem;
+    padding-right:19rem;
+}
 
 @media screen and (max-width:768px){
     .learn-content{
@@ -61,5 +65,10 @@
     }
     .tech-content{
         margin-bottom:1rem
+    }
+
+    .learning-text{
+        padding-left:0;
+        padding-right:0;
     }
 }

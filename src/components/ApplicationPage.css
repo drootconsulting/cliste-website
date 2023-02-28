@@ -6,8 +6,11 @@
 }
 
 .feature-content{
-    margin-bottom:3rem
+    margin-bottom:3rem;
+    width:96%
+    
 }
+
 .app-features-text{
     margin-bottom: 3.6rem;
     color: #363636;
@@ -22,13 +25,15 @@
     background-color: #363638;
     color:#FAFAFA;
     padding:48px 24px; 
+
+    
 }
 .feature-card-title{
     font-weight: 700;
-    font-size: 32px;
+    font-size: 24px;
 }
 .feature-card-content{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
 }
 .app-feature-content{
@@ -41,4 +46,50 @@
 
 .feature-card img{
     border-radius: 0;
+}
+
+.app-feature-hero-image{
+    width:100%
+}
+.features-left-aligned{
+   
+}
+
+@media screen and (max-width:768px){
+    .app-features{
+        padding: 2.5rem 0 1rem 0;
+        margin-top:0
+    }
+
+    .app-features-text{
+        font-size:28px;
+        margin-bottom:1rem;
+        padding-left:1rem;
+        padding-right:1rem;
+        line-height: 37px;;
+    }
+    .feature-content{
+        width:100%
+    }
+    .app-feature-content{
+        margin-bottom:2rem;
+    }
+    .features-left-aligned{
+        padding-left:0;
+        padding-right:0;
+    }
+
+    .features-right-aligned{
+        padding-left:0;
+        padding-right:0;
+    }
+
+    
+}
+
+@media (min-width: 768px) and (max-width: 1440px){
+    .app-features{
+        padding-left:6.25rem;
+        padding-right:6.25rem
+    }
 }

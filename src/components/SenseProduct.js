@@ -3,6 +3,7 @@ import clistemobileapp from '../assets/images/clistemobileapp.png';
 import appstore from '../assets/images/appstore.png';
 import googleplay from '../assets/images/googleplay.png';
 import ControlledCarousel from './CarousalComponent';
+import { Button } from 'react-bootstrap';
 const SenseProduct=({text})=>{
         return(
 
@@ -13,7 +14,7 @@ const SenseProduct=({text})=>{
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br />incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                 </p>
                 <div className='row app-section-image-video'>
-                    <div className='col-xs-12 col-sm-12 col-md-3 col-lg-3 desktop-view'>
+                    <div className='col-xs-12 col-sm-12 col-md-3 col-lg-3 desktop-view mobile-app-image'>
                         <img src={clistemobileapp} alt="cliste-mobile-app" />
                     </div>
                     <div className='app-section-video col-xs-12 col-sm-12 col-md-9 col-lg-9'>
@@ -22,12 +23,12 @@ const SenseProduct=({text})=>{
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br />incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                         </p>
                         <div className='app-section-download'>
-                            {/* <Button className='play-store-btn'> */}
+                            <Button className='play-store-btn'>
                             <img src={googleplay} alt="Google Play Store"/>
-                            {/* </Button> */}
-                            {/* <Button className='play-store-btn'> */}
+                            </Button>
+                            <Button className='play-store-btn'>
                                 <img src={appstore} alt="App Store"/>
-                                {/* </Button> */}
+                                </Button>
                         </div>
 
                     </div>

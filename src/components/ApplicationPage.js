@@ -4,6 +4,7 @@ import Footer from './Footer';
 import SenseProduct from './SenseProduct';
 import {useState, useEffect} from "react";
 import image from '../assets/images/temp-img.jpg';
+import ControlledCarousel from './CarousalComponent';
 function useScrollDirection() {
     const [scrollDirection, setScrollDirection] = useState('up');
   
@@ -32,9 +33,9 @@ const ApplicationPage =()=>{
         <>
          {scrollDirection==='up' && <Header selectedPageIdx={2}/>}
 
-        <div className='content app-feature-content'>
-
-            <img src={image} style={{width:"100%", height:"43.8rem"}}></img>
+        <div className=' content app-feature-content'>
+        <ControlledCarousel/>
+            {/* <img src={image} className='app-feature-hero-image'></img> */}
             <div className='app-features'>
                 <div className='row'>
                 <div className='features-left-aligned col-lg-6'>

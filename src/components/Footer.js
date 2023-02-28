@@ -1,6 +1,12 @@
 import '../components/Footer.css';
 import { Link } from "react-router-dom";
 import { Apple, GooglePlay } from 'react-bootstrap-icons';
+import appStore from '../assets/images/app-store-2.png';
+import linkedInLogo from '../assets/images/linkedIn.png';
+import InstaLogo from '../assets/images/insta.png';
+import facebookLogo from '../assets/images/facebook.png';
+import twitterLogo from '../assets/images/twitter.png';
+
 const Footer =()=>{
     return(
 
@@ -18,7 +24,7 @@ const Footer =()=>{
                 </div>
             </div>
             <div className='row'>
-                <div className='col-xs-12 col-sm-12 col-md-6 col-lg-3 font-headings footer-nav-links'>
+                <div className='col-xs-12 col-sm-12 col-md-3 col-lg-3 font-headings footer-nav-links'>
                     <Link to ="/" >Product</Link>
                     <Link to ="/" >Technology</Link>
                     <Link to ="/" >Application</Link>
@@ -26,7 +32,7 @@ const Footer =()=>{
                     <Link to ="/" >Get Cliste Sense</Link>
                 </div>
 
-                <div  className='col-xs-12 col-sm-12 col-md-6 col-lg-3 footer-nav-links font-headings'>
+                <div  className='col-xs-12 col-sm-12 col-md-3 col-lg-3 footer-nav-links font-headings'>
                     <Link to="/" >FAQs</Link>
                     <Link to="/" >Blogs </Link>
                     <Link to="/" >Partner with us</Link>
@@ -39,10 +45,11 @@ const Footer =()=>{
                     <Link to="/" >Contact us</Link>
                 </div>
 
-                <div  className='col-xs-12 col-sm-12 col-md-6 col-lg-3 footer-download-app-links footer-nav-links'>
+                <div  className='col-xs-12 col-sm-12 col-md-3 col-lg-3 footer-download-app-links footer-nav-links'>
                     <div className='download-links'>
                         <Link to={{ pathname: "/" }} target="_blank" className='font-headings app-download-links'>Get App</Link>
-                        <Apple className='app-download-links'/>
+                        {/* <Apple className='app-download-links'/> */}
+                        <img src={appStore} className='app-download-links'/>
                         <GooglePlay className='app-download-links'/>
                     </div>
                         <p className='font-pragraphs footer-text desktop-view'>
@@ -50,7 +57,7 @@ const Footer =()=>{
                         </p>
                 </div>
 
-                <div  className='col-xs-12 col-sm-12 col-md-6 col-lg-3 contact-section'>
+                <div  className='col-xs-12 col-sm-12 col-md-3 col-lg-3 contact-section'>
                         <p className='font-headings contact-section-heading'>
                         Contact us
                         </p>
@@ -58,7 +65,13 @@ const Footer =()=>{
                         +91 96674 07566
                         </p>
                         <p className='font-pragraphs contact-text'>product@cliste.com</p>
-                        <p className='font-pragraphs contact-text'>+91 96674 07566 product@cliste.com B-818, Tower B, ITHUM TOWER,<br/> A-40, Block A, Industrial Area, <br/>Sector 62, Noida, Uttar Pradesh 201301</p>
+                        <p className='font-pragraphs contact-text'>B-818, Tower B, ITHUM TOWER,<br/> A-40, Block A, Industrial Area, <br/>Sector 62, Noida, Uttar Pradesh 201301</p>
+                        <div>
+                            <Link to=""><img src={linkedInLogo} alt="linkedIn" className='social-media-links'/></Link>
+                            <Link to=""><img src={InstaLogo} alt="linkedIn" className='social-media-links'/></Link>
+                            <Link to=""><img src={facebookLogo} alt="linkedIn" className='social-media-links'/></Link>
+                            <Link to=""><img src={twitterLogo} alt="linkedIn" className='social-media-links'/></Link>
+                        </div>
                 </div>
 
             </div>

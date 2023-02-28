@@ -99,6 +99,10 @@
     display: block;
 }
 
+.social-media-links{
+    margin-right:18px;
+}
+
 @media screen and (max-width:768px){
     .footer{
         padding: 4rem 1rem;
@@ -127,4 +131,16 @@
         margin-bottom: 2rem;
         
     }
+}
+
+@media (min-width: 768px) and (max-width: 1440px){
+    .footer{
+        padding:5rem 2.5rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 854px){
+        .app-download-links{
+            margin-right:6px;
+        }
 }

@@ -8,7 +8,7 @@ import group17 from './assets/images/group17.png';
 import group18 from './assets/images/group18.png';
 export const teams_data_1=[
     {
-        image_url:group11,
+        image_url:group14,
         name:"abc",
         position:"CEO+Founder"
     },
@@ -23,7 +23,7 @@ export const teams_data_1=[
         position:"Tech Lead"
     },
     {
-        image_url:group14,
+        image_url:group11,
         name:"abc",
         position:"Product Manager"
     },

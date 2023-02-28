@@ -13,14 +13,14 @@ const ResourcesPage = () => {
             <Header selectedPageIdx={3}/>
             <div className="content">
                 <div className="row">
-                    <div className="col-lg-6 story-content">
+                    <div className="col-sm-12 col-lg-6 story-content">
                         <h2 className="font-headings story-content-title">Our Cliste Sense story</h2>
-                        <p className="font-paragraphs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna fringilla urna porttitor rhoncus. Ullamcorper velit sed ullamcorper morbi tincidunt. Ac placerat vestibulum lectus mauris. Netus et malesuada fames ac. In dictum non consectetur a. Et sollicitudin ac orci phasellus egestas tellus rutrum. Eget lorem dolor sed viverra ipsum nunc. Odio ut sem nulla pharetra. Varius duis at consectetur lorem donec massa sapien. Et molestie ac feugiat sed. Eget nullam non nisi est sit amet facilisis. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Ut faucibus pulvinar elementum integer enim. Est lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-                        <p className="font-paragraphs">Dictumst quisque sagittis purus sit amet volutpat consequat mauris. Aliquet bibendum enim facilisis gravida neque convallis a cras. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Massa tincidunt dui ut ornare lectus sit amet.</p>
-                        <p className="font-paragraphs">Dictumst quisque sagittis purus sit amet volutpat consequat mauris. Aliquet bibendum enim facilisis gravida neque convallis a cras. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Massa tincidunt dui ut ornare lectus sit amet.</p>
-                        <p className="font-paragraphs">The end innovation is Cliste sense and we are expanding 💖😉</p>
+                        <p className="font-paragraphs story-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna fringilla urna porttitor rhoncus. Ullamcorper velit sed ullamcorper morbi tincidunt. Ac placerat vestibulum lectus mauris. Netus et malesuada fames ac. In dictum non consectetur a. Et sollicitudin ac orci phasellus egestas tellus rutrum. Eget lorem dolor sed viverra ipsum nunc. Odio ut sem nulla pharetra. Varius duis at consectetur lorem donec massa sapien. Et molestie ac feugiat sed. Eget nullam non nisi est sit amet facilisis. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Ut faucibus pulvinar elementum integer enim. Est lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                        <p className="font-paragraphs story-text">Dictumst quisque sagittis purus sit amet volutpat consequat mauris. Aliquet bibendum enim facilisis gravida neque convallis a cras. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Massa tincidunt dui ut ornare lectus sit amet.</p>
+                        <p className="font-paragraphs story-text">Dictumst quisque sagittis purus sit amet volutpat consequat mauris. Aliquet bibendum enim facilisis gravida neque convallis a cras. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Massa tincidunt dui ut ornare lectus sit amet.</p>
+                        <p className="font-paragraphs story-text">The end innovation is Cliste sense and we are expanding 💖😉</p>
                     </div>
-                    <div className="col-lg-6 ">
+                    <div className="col-sm-12 col-lg-6 ">
 
                     </div>
                     <div className="founder-message">
@@ -39,7 +39,7 @@ const ResourcesPage = () => {
                         teams_data_1.map((team, index) => {
                            
                             return (
-                                <div className='team-content col-xs-6 col-sm-4 col-md-6 col-lg-3' key={index}>
+                                <div className='team-content col-xs-6 col-sm-6 col-md-6 col-lg-3' key={index}>
                                     <div className="card team-cards" >
                                         <img src={team.image_url} className="card-img-top" alt="..." />
                                         <div className="card-body team-card-title">
@@ -57,7 +57,7 @@ const ResourcesPage = () => {
                         teams_data_2.map((team, index) => {
                            
                             return (
-                                <div className='team-content col-xs-6 col-sm-4 col-md-6 col-lg-3' key={index}>
+                                <div className='team-content col-xs-6 col-sm-6 col-md-6 col-lg-3' key={index}>
                                     <div className="card team-cards" >
                                         <img src={team.image_url} className="card-img-top" alt="..." />
                                         <div className="card-body team-card-title">

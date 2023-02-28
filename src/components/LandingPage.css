@@ -11,7 +11,6 @@
 .intro{
     /* padding-top: 128px; */
     text-align: left;
-    justify-content: space-between;
     padding-bottom:96px;
 }
 
@@ -73,7 +72,7 @@
 
 
 .mockup-section{
-    padding:80px 195px;
+    padding:5rem 12rem;
     background-color: #363638;
     text-align: center;
 }
@@ -83,7 +82,7 @@
     font-size: 48px;
     font-weight: 700;
     color:#FAFAFA;
-    margin-bottom:23px
+    margin-bottom:3rem
 }
 .mockup-section-text{
     color:#FAFAFA;
@@ -130,17 +129,17 @@
     border: 1px solid #a6a6a6
 }
 
-.hero-image {
+/* .hero-image {
     display: flex;
     justify-content: flex-end;
-}
+} */
 
 .hero-image img{
     height:34.4rem;
     width:38.6rem;
 }
 .working-card{
-    width:23.7rem;
+    /* width:23.7rem; */
     background-color: #048B9E;
 
 }
@@ -159,11 +158,11 @@
 
 @media screen and (max-width: 768px){
     .content{
-            padding: 3.25rem 1rem 0 1rem;
+            padding: 1.5rem 1rem 0 1rem;
     }
 
     .working{
-        padding: 3rem 3.75rem 2rem 3.75rem;
+        padding: 3rem 3.75rem 3rem 3.75rem;
     }
     .working-heading{
         font-size: 32px;
@@ -212,6 +211,28 @@
         padding:0;
         margin-top:1rem
     }
+    .mobile-view-btn{
+        margin-top:1.5rem;
+        margin-bottom:1.5rem;
+    }
    
-   
+}
+
+@media (min-width: 768px) and (max-width: 1440px){
+  .content{
+    padding:12rem 2.5rem 0 2.5rem;
+
+  }
+ .working{
+    padding:5rem 2.5rem;
+ }
+ .mockup-section{
+    padding:5rem 2.5rem;
+ }
+ .mockup-section-text{
+    text-align: left;
+ }
+ .tech-adv-section{
+    padding:5rem 2.5rem;
+ }
 }
