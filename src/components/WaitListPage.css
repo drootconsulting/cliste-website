@@ -1,0 +1,151 @@
+.waitlist-body{
+    padding:2.5rem 5.6rem 2.5rem 5.6rem;
+    background-color: #315C66;
+}
+
+.waitlist-title{
+    font-size: 65px;
+    font-weight:800;
+    text-align: left;
+    line-height: 70px;
+    margin-bottom:0
+    
+}
+
+.waitlist-sub-title{
+    font-size: 40px;
+    font-weight:700;
+    text-align: left;
+    line-height: 70px;
+    margin-bottom:0
+}
+.waitlist-intro{
+    color:#FAFAFA
+}
+.waitlist-text{
+    text-align: left;
+    line-height: 33px;
+    margin-top:36px;
+    margin-bottom:28px;
+}
+.waitlist-input-group-text{
+    padding:12px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color:rgba(249, 70, 28, 0.5);
+    color:#fff;
+    height:55px;
+    border:none;
+    border-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+   
+}
+
+.app-reason-content{
+        background-image: url("../assets/images/waitlist-bacgrndimg.png");
+        width:100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;   
+}
+
+
+.app-reason-text{
+    padding:3.75rem 5.6rem 6.56rem 5.6rem;
+   
+}
+
+.app-reason-title{
+    color:rgba(49, 92, 102, 1);
+    font-size: 45px;
+    font-weight:700;
+    text-align: left;
+    line-height: 52px;
+    margin-bottom:0
+   
+}
+.app-reason-points{
+    text-align: left;
+    
+}
+.app-reason-points-desc{
+    display: flex;;
+    padding-right:11rem;
+    padding-bottom:10rem;
+    border-right:0.5px solid rgba(49, 92, 102, 0.5);
+    border-bottom :0.5px solid rgba(49, 92, 102, 0.5)
+}
+
+.app-reason-points-desc-number{
+    margin-right:8px;
+    color:rgba(49, 92, 102, 1);
+    font-size: 90px;
+    font-weight:900;
+    position:relative;
+    top:60px;
+    opacity:0.5
+}
+.app-reason-points-desc-detail{
+    position:relative;
+    top:117px;
+}
+
+.app-reason-points-desc-detail p{
+    margin-bottom:0;
+    
+}
+.app-reason-points-title1{
+    color:rgba(49, 92, 102, 1);
+    font-size: 32px;
+    font-weight:600;
+    margin-bottom:22px;
+
+}
+.waitlist-footer{
+    padding:1.5rem 5.6rem 1.5rem 5.6rem;
+    background-color: #315C66;
+}
+.waitlist-footer-text{
+    font-size:20px;
+    font-weight:400;
+    color:#FAFAFA;
+    line-height: 30px;
+    text-align: end;;
+}
+.waitlist-footer p{
+    margin-bottom: 0;
+}
+.app-reason-points-title2{
+    font-size:20px;
+    font-weight: 400;
+    line-height: 27px;
+    color:#315C66
+}
+
+@media (min-width: 768px) and (max-width: 1440px){
+    .waitlist-body{
+        padding:2.5rem 2.5rem 2.5rem 2.5rem;
+    }
+    .waitlist-title{
+        font-size: 50px;
+        font-weight:800;
+        margin-bottom:0;
+        line-height: 40px;
+    }
+    .waitlist-sub-title{
+        font-size: 25px;
+        font-weight:700;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .waitlist-body{
+        padding:2rem 1.25rem
+    }
+    .waitlist-input{
+        margin-bottom:50px;
+    }
+  
+}

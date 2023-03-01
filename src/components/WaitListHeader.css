@@ -1,0 +1,26 @@
+.waitlist-header{
+    margin-bottom: 3rem;
+}
+.waitlist-header-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.waitlist-social-media-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.waitlist-social-media-links p{
+    margin-bottom: 0;
+    margin-right: 0.75rem;
+    color:#FAFAFA;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.waitlist-social-media-links img{
+    margin-right:0.75rem;
+}
+

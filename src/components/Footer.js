@@ -2,10 +2,10 @@ import '../components/Footer.css';
 import { Link } from "react-router-dom";
 import { Apple, GooglePlay } from 'react-bootstrap-icons';
 import appStore from '../assets/images/app-store-2.png';
-import linkedInLogo from '../assets/images/linkedIn.png';
-import InstaLogo from '../assets/images/insta.png';
+import linkedInLogo from '../assets/images/linkedIn.svg';
+import InstaLogo from '../assets/images/insta.svg';
 import facebookLogo from '../assets/images/facebook.png';
-import twitterLogo from '../assets/images/twitter.png';
+import twitterLogo from '../assets/images/twitter.svg';
 
 const Footer =()=>{
     return(

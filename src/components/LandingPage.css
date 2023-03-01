@@ -34,9 +34,8 @@
 }
 
 .container{
-    
-    margin:0 !important;
     padding:0;
+    margin:0 !important
 }
 .working{
     background-color: #048B9E;
@@ -61,13 +60,14 @@
     
 }
 .card-heading{
-    font-size: 20px;
-    font-weight: 800;
+    font-size: 32px;
+    font-weight: 700;
 }
 .card-text{
     color:#FAFAFA;
     font-size: 20px;
     font-weight: 400;
+    line-height: 27px;
 }
 
 
@@ -155,6 +155,12 @@
 .mobile-view{
     display: block !important;
 }
+.card-img-top{
+    border-radius: 0;
+}
+.tech-card-detail{
+    margin-top:3rem;
+}
 
 @media screen and (max-width: 768px){
     .content{
@@ -209,7 +215,7 @@
     }
     .tech-adv-section-text{
         padding:0;
-        margin-top:1rem
+        margin-top:3rem
     }
     .mobile-view-btn{
         margin-top:1.5rem;
@@ -235,4 +241,11 @@
  .tech-adv-section{
     padding:5rem 2.5rem;
  }
+}
+
+@media (min-width: 768px) and (max-width: 1100px){
+    .content{
+      padding-top:2.5rem;
+  
+    }
 }

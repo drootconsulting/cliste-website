@@ -58,7 +58,7 @@ const Technology=()=>{
                     <div className='col-xs-12 col-sm-12 col-md-8 col-lg-8'>
                         <div className='tech-content'>
                             <div className="card tech-cards">
-                                <img src={image} className="card-img-top" alt="..." style={{ borderRadius: '0', height: '223px' ,width:"100%"}} />
+                                <img src={image} className="card-img-top" alt="..."  />
                                 <div className="card-body tech-cards-content">
                                     <h5 className="card-title font-headings tech-card-heading">Application Intelligence</h5>
                                     <p className="card-text tech-card-text font-pragraphs">Describe how Cliste Sense uses artificial intelligence to recommend recipes based on the ingredients you have on hand and track your diet to promote healthier choices.</p>
@@ -66,7 +66,7 @@ const Technology=()=>{
                             </div>
                             <div className='tech-content'>
                                 <div className="card tech-cards">
-                                    <img src={image} className="card-img-top" alt="..." style={{ borderRadius: '0', height: '223px' }} />
+                                    <img src={image} className="card-img-top" alt="..."  />
                                     <div className="card-body tech-cards-content">
                                         <h5 className="card-title font-headings tech-card-heading">Cloud Services</h5>
                                         <p className="card-text tech-card-text font-pragraphs">Highlight how Cliste Sense utilizes cloud services to store and analyze data to provide personalized recommendations and seamless user experience.</p>
@@ -76,8 +76,8 @@ const Technology=()=>{
                         </div>
                     </div>
                     <div className='tech-content col-xs-12 col-sm-12 col-md-4 col-lg-4'>
-                        <div className="card tech-cards">
-                            <img src={image} className="card-img-top" alt="..." style={{ borderRadius: '0', height: '100px' }} />
+                        <div className="card tech-cards tech-card-fullheight">
+                            <img src={image} className="card-img-top" alt="..."  />
                             <div className="card-body tech-cards-content">
                                 <h5 className="card-title font-headings tech-card-heading">User Interface</h5>
                                 <p className="card-text tech-card-text font-pragraphs">Showcase the user interface of Cliste Sense and how it displays inventory, recipe recommendations.</p>
