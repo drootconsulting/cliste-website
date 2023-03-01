@@ -215,7 +215,8 @@
     }
     .tech-adv-section-text{
         padding:0;
-        margin-top:3rem
+        margin-top:1rem;
+        text-align: center;
     }
     .mobile-view-btn{
         margin-top:1.5rem;
