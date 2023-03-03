@@ -6,11 +6,6 @@
     justify-content: space-between;
     align-items: center;
 }
-.waitlist-social-media-links{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
 
 .waitlist-social-media-links p{
     margin-bottom: 0;
@@ -20,7 +15,14 @@
     font-weight: 500;
 }
 
-.waitlist-social-media-links img{
-    margin-right:0.75rem;
+@media screen and (max-width:768px){
+ 
+    .waitlist-brand-logo img{
+        width:35px;
+    }
+    .waitlist-header{
+        margin-bottom:2rem;
+    }
+   
 }
 

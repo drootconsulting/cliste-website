@@ -14,14 +14,25 @@ const Footer =()=>{
             <div className='footer-heading font-headings'>
                 Get Cliste updates.
             </div>
-            <p className='font-pragraphs footer-text'>
+            <p className='font-paragraphs footer-text'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br /> sed do eiusmod tempor incididunt ut labore et dolore <br />magna aliqua. Ut enim ad minim veniam, quis nostrud
             </p>
             <div className="input-group get-updates-field">
-                <input type="text" className="form-control font-pragraphs get-updates-field-input" placeholder="@Email" aria-label="Recipient's username" aria-describedby="basic-addon2" />
-                <div className="input-group-append">
-                    <span className="input-group-text font-pragraphs" id="basic-addon2">Thank you</span>
-                </div>
+                <form className='footer-form'>
+                    <input
+                        type="email"
+                        className="form-control font-paragraphs get-updates-field-input-footer"
+                        placeholder="@Email"
+                        aria-label="Recipient's username"
+                        aria-describedby="basic-addon2"
+                    />
+                    <button
+                        className="footer-submit-btn font-paragraphs"
+                        id="basic-addon2"
+                        type="submit"
+                    >Thank you</button>
+                </form>
+                
             </div>
             <div className='row'>
                 <div className='col-xs-12 col-sm-12 col-md-3 col-lg-3 font-headings footer-nav-links'>
@@ -38,11 +49,11 @@ const Footer =()=>{
                     <Link to="/" >Partner with us</Link>
                     <Link to="/" >Careers</Link>
                     <Link to="/" >Legal overview</Link>
-                    <Link to="/" >Data protection & privacy policy</Link>
+                    <Link to="/privacypolicy" >Privacy Policy</Link>
                     <Link to="/" >Terms & conditions</Link>
                     <Link to="/" >Order tracker</Link>
                     <Link to="/" >Shipping, cancellation & return</Link>
-                    <Link to="/" >Contact us</Link>
+                    <Link to="/contact" >Contact us</Link>
                 </div>
 
                 <div  className='col-xs-12 col-sm-12 col-md-3 col-lg-3 footer-download-app-links footer-nav-links'>
@@ -52,7 +63,7 @@ const Footer =()=>{
                         <img src={appStore} className='app-download-links'/>
                         <GooglePlay className='app-download-links'/>
                     </div>
-                        <p className='font-pragraphs footer-text desktop-view'>
+                        <p className='font-paragraphs footer-text desktop-view'>
                         Seamless mobile experiences <br/>has been curated to make sure <br/>the platform is accessible and <br/>easy to navigate for all users
                         </p>
                 </div>
@@ -61,11 +72,11 @@ const Footer =()=>{
                         <p className='font-headings contact-section-heading'>
                         Contact us
                         </p>
-                        <p className='font-pragraphs contact-text' style={{marginBottom:"0"}}>
+                        <p className='font-paragraphs contact-text' style={{marginBottom:"0"}}>
                         +91 96674 07566
                         </p>
-                        <p className='font-pragraphs contact-text'>product@cliste.com</p>
-                        <p className='font-pragraphs contact-text'>B-818, Tower B, ITHUM TOWER,<br/> A-40, Block A, Industrial Area, <br/>Sector 62, Noida, Uttar Pradesh 201301</p>
+                        <p className='font-paragraphs contact-text'>product@cliste.com</p>
+                        <p className='font-paragraphs contact-text'>B-818, Tower B, ITHUM TOWER,<br/> A-40, Block A, Industrial Area, <br/>Sector 62, Noida, Uttar Pradesh 201301</p>
                         <div>
                             <Link to=""><img src={linkedInLogo} alt="linkedIn" className='social-media-links'/></Link>
                             <Link to=""><img src={InstaLogo} alt="linkedIn" className='social-media-links'/></Link>

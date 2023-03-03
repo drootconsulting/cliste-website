@@ -1,7 +1,34 @@
 import '../components/WaitListPage.css';
 import WaitListHeader from '../components/WaitListHeader';
-import kitchenimage from '../assets/images/kitchen.svg';
+import kitchenimage from '../assets/images/kitchen.png';
+import linkedInLogo from '../assets/images/linkedIn.svg';
+import InstaLogo from '../assets/images/insta.svg';
+import facebookLogo from '../assets/images/facebook.png';
+import twitterLogo from '../assets/images/twitter.svg';
+import { useState } from 'react';
 const WaitListPage =()=>{
+    const [email, setEmail] = useState("");
+    const [buttonColor, setButtonColor] = useState("rgba(249, 70, 28, 0.5)");
+  
+    const handleEmailChange = (event) => {
+      setEmail(event.target.value);
+      if (isValidEmail(event.target.value)) {
+        setButtonColor("#F9461C");
+      } else {
+        setButtonColor("rgba(249, 70, 28, 0.5)");
+      }
+    };
+  
+    const handleSubmit = (event) => {
+      event.preventDefault();
+      // Handle form submission here
+    };
+  
+    const isValidEmail = (email) => {
+      // Basic email validation regex
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return emailRegex.test(email);
+    };
         return(
             <>
                 <div className='waitlist-body'>
@@ -12,16 +39,31 @@ const WaitListPage =()=>{
                                 Cliste Sense </p>
                             <p className='font-headings waitlist-sub-title'>Coming soon !</p>
                             <p className='font-paragraphs waitlist-text'>
-                                Don't settle for a cluttered kitchen and unhealthy food choices - join our waitlist for Cliste Sense and simplify your meal planning and preparation! With smart inventory management, recipe recommendations, diet tracking, and more, Cliste Sense is the must-have product for any smart kitchen. Plus, with its convenient smartphone interface and high-quality design, healthy eating has never been easier or more stylish. So what are you waiting for? Sign up now and get ready to revolutionize your kitchen game!
+                            Don't settle for a cluttered kitchen and unhealthy food choices - join our waitlist for Cliste Sense and simplify your meal planning and preparation! With smart inventory management, recipe recommendations, diet tracking, and more,
                             </p>
                             <div className="input-group waitlist-input">
-                                <input type="text" className="form-control font-pragraphs get-updates-field-input " placeholder="Enter your email to join waitlist " aria-label="Recipient's username" aria-describedby="basic-addon2" />
-                                <div className="input-group-append">
-                                    <button className="waitlist-input-group-text font-pragraphs" id="basic-addon2">Join now</button>
-                                </div>
+                                <form onSubmit={handleSubmit} className='waitlist-form'>
+                                <input 
+                                type="email" 
+                                className="form-control font-paragraphs get-updates-field-input-waitlist " 
+                                placeholder="Enter your email to join waitlist " 
+                                aria-label="Recipient's username" 
+                                aria-describedby="basic-addon2" 
+                                value={email}
+                                onChange={handleEmailChange}
+                                />
+                                {/* <div className="input-group-append"> */}
+                                    <button 
+                                    className="waitlist-submit-btn font-paragraphs" 
+                                    id="basic-addon2"
+                                    type="submit"
+                                    style={{backgroundColor:buttonColor}}
+                                    >Join{" "}now</button>
+                                {/* </div> */}
+                                </form>
                             </div>
                         </div>
-                        <div className='col-xs-12 col-sm-12 col-md-6 col-lg-8'>
+                        <div className='col-xs-12 col-sm-12 col-md-6 col-lg-8 waitlist-kitchen-image'>
                             <img src={kitchenimage} alt="kitchen"/>
                         </div>
                     </div>
@@ -39,7 +81,7 @@ const WaitListPage =()=>{
                             <p className='font-paragraphs app-reason-points-title2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                             </div>
                         </div>
-                        <div className='app-reason-points-desc col-xs-12 col-sm-12 col-md-6 col-lg-6' style={{borderRight:"none"}}>
+                        <div className='app-reason-points-desc col-xs-12 col-sm-12 col-md-6 col-lg-6 app-reason-point-two' style={{borderRight:"none"}}>
                             <h1 className='app-reason-points-desc-number'>02</h1>
                             <div className='app-reason-points-desc-detail'>
                             <p className='font-headings app-reason-points-title1'>
@@ -58,7 +100,7 @@ const WaitListPage =()=>{
                             <p className='font-paragraphs app-reason-points-title2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                             </div>
                         </div>
-                        <div className='app-reason-points-desc col-xs-12 col-sm-12 col-md-6 col-lg-6' style={{borderBottom:"none", borderRight:"none"}}>
+                        <div className='app-reason-points-desc col-xs-12 col-sm-12 col-md-6 col-lg-6 app-reason-point-two' style={{borderBottom:"none", borderRight:"none"}}>
                             <h1 className='app-reason-points-desc-number'>04</h1>
                             <div className='app-reason-points-desc-detail'>
                             <p className='font-headings app-reason-points-title1'>
@@ -71,12 +113,12 @@ const WaitListPage =()=>{
                     </div>
                 </div>
                 <div className='waitlist-footer'>
-
-                    <p className='font-paragraphs waitlist-footer-text'>
-                        B-818, Tower B, ITHUM TOWER,<br/>
-                        A-40, Block A, Industrial Area,<br/>
-                        Sector 62, Noida, Uttar Pradesh 201301
-                    </p>
+                    <div className='waitlist-social-media-links'>
+                        <img src={linkedInLogo} alt="linkedIn" />
+                        <img src={InstaLogo} alt="Instagram"/>
+                        <img src={facebookLogo} alt="Facebook" />
+                        <img src={twitterLogo} alt="Twitter" style={{marginRight:"0"}}/>
+                    </div>
                 </div>
             </>
         )

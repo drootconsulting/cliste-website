@@ -10,7 +10,7 @@ const SenseProduct=({text})=>{
             <div className='app-section'>
                 <div className='font-headings app-section-heading'>{text}</div>
                 <div className='font-headings app-section-sub-heading'>Track your kitchen food items with cliste Sense</div>
-                <p className='font-pragraphs app-section-text desktop-view'>
+                <p className='font-paragraphs app-section-text desktop-view'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br />incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                 </p>
                 <div className='row app-section-image-video'>
@@ -19,7 +19,7 @@ const SenseProduct=({text})=>{
                     </div>
                     <div className='app-section-video col-xs-12 col-sm-12 col-md-9 col-lg-9'>
                     <ControlledCarousel/>
-                        <p className='font-pragraphs app-section-text mobile-view'>
+                        <p className='font-paragraphs app-section-text mobile-view'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br />incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                         </p>
                         <div className='app-section-download'>

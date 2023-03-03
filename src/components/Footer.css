@@ -10,32 +10,38 @@
     margin-bottom:16px;
     text-align: center;
 }
+
 .get-updates-field{
-    width:23rem;
-    margin:1.6rem auto 8.25rem auto ;
-    height:3.43rem
+    justify-content: center;
 }
-.form-control{
-    padding: 16px;
-    font-size: 20px;
-    font-weight: 400;
-    height:55px;
-    width:248px;
+.footer-form{
+    display:flex;
+    width:25rem;
+}
+.get-updates-field-input-footer{
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
 }
-.input-group-text{
-    padding:16px 11px;
+
+.footer-submit-btn{
+    background-color:#F9461C ;
     font-size: 20px;
-    font-weight: 800;
-    background-color: #F9461C;
+    font-weight: 700;
     color:#fff;
-    height:55px;
     border:none;
     border-radius: 0;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+    height:55px;
+    line-height:20px;
+    width:40%
 }
+.form-control:focus {
+    border-color: #fafafa;
+    box-shadow: none;
+  }
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color:#363638;
     opacity: 1; /* Firefox */
