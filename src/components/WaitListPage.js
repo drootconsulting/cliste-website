@@ -5,30 +5,11 @@ import linkedInLogo from '../assets/images/linkedIn.svg';
 import InstaLogo from '../assets/images/insta.svg';
 import facebookLogo from '../assets/images/facebook.png';
 import twitterLogo from '../assets/images/twitter.svg';
-import { useState } from 'react';
+import JoinWaitlistForm from './JoinWaitListForm';
+import MailchimpSubscribe from "react-mailchimp-subscribe";
+
 const WaitListPage =()=>{
-    const [email, setEmail] = useState("");
-    const [buttonColor, setButtonColor] = useState("rgba(249, 70, 28, 0.5)");
-  
-    const handleEmailChange = (event) => {
-      setEmail(event.target.value);
-      if (isValidEmail(event.target.value)) {
-        setButtonColor("#F9461C");
-      } else {
-        setButtonColor("rgba(249, 70, 28, 0.5)");
-      }
-    };
-  
-    const handleSubmit = (event) => {
-      event.preventDefault();
-      // Handle form submission here
-    };
-  
-    const isValidEmail = (email) => {
-      // Basic email validation regex
-      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      return emailRegex.test(email);
-    };
+    const postUrl="https://droot.us18.list-manage.com/subscribe/post?u=0736c2c9dbd48bfdc69b8d88f&id=61d41d7035"
         return(
             <>
                 <div className='waitlist-body'>
@@ -41,27 +22,16 @@ const WaitListPage =()=>{
                             <p className='font-paragraphs waitlist-text'>
                             Don't settle for a cluttered kitchen and unhealthy food choices - join our waitlist for Cliste Sense and simplify your meal planning and preparation! With smart inventory management, recipe recommendations, diet tracking, and more,
                             </p>
-                            <div className="input-group waitlist-input">
-                                <form onSubmit={handleSubmit} className='waitlist-form'>
-                                <input 
-                                type="email" 
-                                className="form-control font-paragraphs get-updates-field-input-waitlist " 
-                                placeholder="Enter your email to join waitlist " 
-                                aria-label="Recipient's username" 
-                                aria-describedby="basic-addon2" 
-                                value={email}
-                                onChange={handleEmailChange}
-                                />
-                                {/* <div className="input-group-append"> */}
-                                    <button 
-                                    className="waitlist-submit-btn font-paragraphs" 
-                                    id="basic-addon2"
-                                    type="submit"
-                                    style={{backgroundColor:buttonColor}}
-                                    >Join{" "}now</button>
-                                {/* </div> */}
-                                </form>
-                            </div>
+                            <MailchimpSubscribe
+                                url={postUrl}
+                                render={({ subscribe, status, message }) => (
+                                    <JoinWaitlistForm
+                                        status={status}
+                                        message={message}
+                                        onValidated={formData => subscribe(formData)}
+                                    />
+                                )}
+                            />
                         </div>
                         <div className='col-xs-12 col-sm-12 col-md-6 col-lg-8 waitlist-kitchen-image'>
                             <img src={kitchenimage} alt="kitchen"/>
@@ -89,7 +59,6 @@ const WaitListPage =()=>{
                             </p>
                             <p className='font-paragraphs app-reason-points-title2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                             </div>
-                           
                         </div>
                         <div className='app-reason-points-desc col-xs-12 col-sm-12 col-md-6 col-lg-6' style={{borderBottom:"none"}}>
                             <h1 className='app-reason-points-desc-number'>03</h1>

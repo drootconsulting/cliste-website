@@ -8,6 +8,7 @@ import SenseProduct from './SenseProduct';
 import image1 from '../assets/images/machinelearning1.png';
 import {useState, useEffect} from "react";
 import ControlledCarousel from './CarousalComponent';
+import theme from '../theme';
 function useScrollDirection() {
     const [scrollDirection, setScrollDirection] = useState('up');
   
@@ -47,7 +48,7 @@ const LandingPage =()=>{
                         <Button className='intro-btn font-paragraphs'><Cart className='telephone-icon font-paragraphs' /><span>Buy now</span></Button>
                     </div>
                     <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6 hero-image'>
-                        <img src={image1} className="img-fluid" alt=""/>
+                        <img src={image1} className="img-fluid" alt="hero image"/>
                     </div>
                 </div>
             </div> 
