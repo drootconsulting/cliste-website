@@ -28,7 +28,7 @@
 }
 
 .team-section-heading{
-    color:#FAFAFA;
+    color:var(--color-tertiary);
     font-size: 48px;
     font-weight: 700;
     margin-bottom:3.5rem
@@ -47,12 +47,12 @@
     padding-top:12px
 }
 .team-card-heading-1{
-    color:#FAFAFA;
+    color:var(--color-tertiary);
     font-size: 18px;
     font-weight: 600;
 }
 .team-card-heading-2{
-    color:#FAFAFA;
+    color:var(--color-tertiary);
     font-size: 18px;
     font-weight: 700;
 }
@@ -73,7 +73,7 @@
     
 }
 .sticky-box-heading{
-    color:#FAFAFA;
+    color:var(--color-tertiary);
     font-size: 48px;
     font-weight: 700;
 
@@ -81,7 +81,7 @@
 .sticky-box-text{
     font-size:20px;
     font-weight:400;
-    color:#FAFAFA
+    color:var(--color-tertiary);
 }
 .team-section-1{
     margin-bottom:120px;

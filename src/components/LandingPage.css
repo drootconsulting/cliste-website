@@ -19,8 +19,8 @@
 }
 
 .intro-btn{
-    background-color: #315C66;
-    color:#FAFAFA;
+    background: var(--color-secondary);
+    color:var(--color-tertiary);
     font-size:16px;
     font-weight: 400;
     padding:10px;
@@ -45,13 +45,13 @@
     text-align: center;
     font-size: 48px;
     font-weight: 700;
-    color:#FAFAFA
+    color:var(--color-tertiary);
 }
 .card-detail{
     margin-top:56px;
     justify-content: space-between;
     background-color: #048B9E;
-    color:#FAFAFA;
+    color:var(--color-tertiary);
 }
 
 .card{
@@ -64,7 +64,7 @@
     font-weight: 700;
 }
 .card-text{
-    color:#FAFAFA;
+    color:var(--color-tertiary);
     font-size: 20px;
     font-weight: 400;
     line-height: 27px;
@@ -81,11 +81,11 @@
     text-align: center;
     font-size: 48px;
     font-weight: 700;
-    color:#FAFAFA;
+    color:var(--color-tertiary);
     margin-bottom:3rem
 }
 .mockup-section-text{
-    color:#FAFAFA;
+    color:var(--color-tertiary);
     font-size: 20px;
     font-weight: 400;
     margin-bottom:82.4px;
@@ -94,10 +94,10 @@
     margin-bottom: 56px;
 }
 .mockup-video{
-    background-color: #FAFAFA;
+    background: var(--color-tertiary);
     padding:10px;
     border:none;
-    color:#363638;
+    color:var(--color-primary);
     font-size: 16px;
     font-weight: 400;
     border-radius: 4px;;
@@ -105,26 +105,26 @@
 .tech-adv-section{
     padding:80px 12rem;
     text-align: center;
-    color:#363638;
+    color:var(--color-primary);
 
 }
 .tech-adv-section-heading{
     text-align: center;
     font-size: 48px;
     font-weight: 700;
-    color:#363638;
+    color:var(--color-primary);
     margin-bottom: 100px;
 }
 .tech-adv-section-text{
     padding-right:20px;
-    background-color: #FAFAFA;
-    color:#363638;
+    background: var(--color-tertiary);
+    color:var(--color-primary);
     
 }
 .play-store-btn{
     padding:0;
     margin-right:1.5rem;
-    background-color: #FAFAFA;
+    background: var(--color-tertiary);
     border-radius: 8px;
     border: 1px solid #a6a6a6
 }
@@ -168,7 +168,7 @@
     }
 
     .working{
-        padding: 3rem 3.75rem 3rem 3.75rem;
+        padding: 3rem 1rem 3rem 1rem;
     }
     .working-heading{
         font-size: 32px;

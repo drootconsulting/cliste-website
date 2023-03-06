@@ -29,7 +29,7 @@
 
 .privacypolicy-link {
     text-decoration: underline;
-    color: #363638;
+    color: var(--color-primary);
     text-underline-offset: 2px;
 }
 .contact-us-form-submit-btn{

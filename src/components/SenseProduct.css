@@ -1,18 +1,18 @@
 .app-section{
     padding:80px 12rem;
-    background-color: #315C66;
+    background: var(--color-secondary);
     text-align: center;
 }
 
 .app-section-sub-heading{
     font-size: 32px;
     font-weight: 500;
-    color:#FAFAFA;
+    color:var(--color-tertiary);
     margin-bottom: 30px;
 }
 
 .app-section-text{
-    color:#FAFAFA;
+    color:var(--color-tertiary);
     font-size: 20px;
     font-weight: 400;
     margin-bottom:82.4px;
@@ -22,7 +22,7 @@
     text-align: center;
     font-size: 48px;
     font-weight: 700;
-    color:#FAFAFA;
+    color:var(--color-tertiary);
     margin-bottom:23px
 }
 .app-section-image-video{

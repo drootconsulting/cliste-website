@@ -21,7 +21,7 @@
     margin-bottom:0
 }
 .waitlist-intro{
-    color:#FAFAFA
+    color:var(--color-tertiary);
 }
 .waitlist-text{
     text-align: left;
@@ -125,12 +125,12 @@
 }
 .waitlist-footer{
     padding:1.5rem 5.6rem 1.5rem 5.6rem;
-    background-color: #315C66;
+    background:var(--color-secondary);
 }
 .waitlist-footer-text{
     font-size:20px;
     font-weight:400;
-    color:#FAFAFA;
+    color:var(--color-tertiary);
     line-height: 30px;
     text-align: end;;
 }
@@ -141,7 +141,7 @@
     font-size:20px;
     font-weight: 400;
     line-height: 27px;
-    color:#315C66
+    color:var(--color-secondary);
 }
 
 .waitlist-social-media-links{

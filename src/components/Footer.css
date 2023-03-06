@@ -1,6 +1,6 @@
 .footer{
-    background-color: #363638;
-    color: #fafafa;
+    background:var(--color-primary); 
+    color: var(--color-tertiary);
     padding:80px 12rem;
 }
 
@@ -39,20 +39,20 @@
     width:40%
 }
 .form-control:focus {
-    border-color: #fafafa;
+    border-color: var(--color-tertiary);;
     box-shadow: none;
   }
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color:#363638;
+    color:var(--color-primary);
     opacity: 1; /* Firefox */
 }
 
 .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color:#363638;
+    color:var(--color-primary);
 }
 
 .form-control::-ms-input-placeholder { /* Microsoft Edge */
-    color:#363638;
+    color:var(--color-primary);
 }
 .footer-nav-links{
     display:flex;
@@ -62,7 +62,7 @@
 
 .footer-nav-links a{
     text-decoration: none;
-    color:#fafafa;
+    color:var(--color-tertiary);
     font-size: 20px;
     font-weight: 800;
     line-height: 40px;

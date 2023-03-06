@@ -8,7 +8,7 @@ import SenseProduct from './SenseProduct';
 import image1 from '../assets/images/machinelearning1.png';
 import {useState, useEffect} from "react";
 import ControlledCarousel from './CarousalComponent';
-import theme from '../theme';
+import KitchenTechnology from './KitchenTechnology';
 function useScrollDirection() {
     const [scrollDirection, setScrollDirection] = useState('up');
   
@@ -174,6 +174,7 @@ const LandingPage =()=>{
                 {/* partners */}
                     <Partners/>
             </div> 
+            <KitchenTechnology/>
             <Footer/>
         </>
     )

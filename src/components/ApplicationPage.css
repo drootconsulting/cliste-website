@@ -13,7 +13,7 @@
 
 .app-features-text{
     margin-bottom: 3.6rem;
-    color: #363636;
+    color: var(--color-primary);
     font-size: 48px;
     font-weight: 700;
     list-style: 64px;
@@ -22,11 +22,9 @@
 .feature-card{
     border:none;
     border-radius: 0;
-    background-color: #363638;
-    color:#FAFAFA;
+    background:var(--color-primary);
+    color:var(--color-tertiary);
     padding:48px 24px; 
-
-    
 }
 .feature-card-title{
     font-weight: 700;
@@ -50,9 +48,6 @@
 
 .app-feature-hero-image{
     width:100%
-}
-.features-left-aligned{
-   
 }
 
 @media screen and (max-width:768px){

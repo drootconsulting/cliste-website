@@ -22,3 +22,10 @@ body {
 .font-paragraphs{
   font-family: 'Nunito Sans';
 }
+
+:root{
+  --color-primary:#363638;
+  --color-secondary:#315C66;
+  --color-tertiary: #FAFAFA;
+  --color-accent:#050301;
+}

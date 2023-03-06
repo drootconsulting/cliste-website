@@ -1,6 +1,6 @@
 .tech-cards{
-    background-color: #fafafa;
-    color:#363638;
+    background:var(--color-tertiary);
+    color:var(--color-primary);
     text-align: left;
     padding-left:0
  
@@ -14,7 +14,7 @@
 .tech-card-text{
     font-size: 20px;
     font-weight: 400;
-    color:#363638
+    color:var(--color-primary);
 }
 .tech-content{
     margin-bottom: 40px;
