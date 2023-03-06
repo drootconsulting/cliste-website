@@ -5,14 +5,14 @@ import { useState } from 'react';
 const JoinWaitlistForm=({ status, message, onValidated })=>{
 
     const [email, setEmail] = useState("");
-    const [buttonColor, setButtonColor] = useState("rgba(249, 70, 28, 0.5)");
+    const [buttonColor, setButtonColor] = useState("rgba(255, 129, 100, 1)");
 
     const handleEmailChange = (event) => {
         setEmail(event.target.value);
         if (isValidEmail(event.target.value)) {
             setButtonColor("#F9461C");
         } else {
-            setButtonColor("rgba(249, 70, 28, 0.5)");
+            setButtonColor("rgba(255, 129, 100, 1)");
         }
     };
 
@@ -48,7 +48,7 @@ const JoinWaitlistForm=({ status, message, onValidated })=>{
                         id="basic-addon2"
                         type="submit"
                         style={{ backgroundColor: buttonColor }}
-                    >Join now</button>
+                    >Join{" "}now</button>
                 </form>
                 {status === "success" && (
                     <div

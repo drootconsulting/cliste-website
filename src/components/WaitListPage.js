@@ -17,11 +17,12 @@ const WaitListPage =()=>{
                     <div className=' row waitlist-intro'>
                         <div className='col-xs-12 col-sm-12 col-md-6 col-lg-4'>
                             <p className='font-headings waitlist-title'>
-                                Cliste Sense </p>
+                                Cliste</p>
                             <p className='font-headings waitlist-sub-title'>Coming soon !</p>
                             <p className='font-paragraphs waitlist-text'>
-                            Don't settle for a cluttered kitchen and unhealthy food choices - join our waitlist for Cliste Sense and simplify your meal planning and preparation! With smart inventory management, recipe recommendations, diet tracking, and more,
-                            </p>
+                            Welcome to Cliste, the smart home automation company that simplifies your life and enhances your home experience with our cutting-edge products. Control your entire home with just a few taps on your smartphone, and manage your kitchen and home. </p>
+                            <p className='font-paragraphs waitlist-text' style={{fontSize:"18px"}}>Join our waitlist now for exclusive updates and early access...!</p>
+                          
                             <MailchimpSubscribe
                                 url={postUrl}
                                 render={({ subscribe, status, message }) => (
@@ -32,6 +33,7 @@ const WaitListPage =()=>{
                                     />
                                 )}
                             />
+
                         </div>
                         <div className='col-xs-12 col-sm-12 col-md-6 col-lg-8 waitlist-kitchen-image'>
                             <img src={kitchenimage} alt="kitchen"/>
@@ -46,36 +48,37 @@ const WaitListPage =()=>{
                             <h1 className='app-reason-points-desc-number'>01</h1>
                             <div className='app-reason-points-desc-detail'>
                             <p className='font-headings app-reason-points-title1'>
-                            Lorem ipsum dolor sit amet,
+                            Smart Home Automation
                             </p>
-                            <p className='font-paragraphs app-reason-points-title2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                            <p className='font-paragraphs app-reason-points-title2'>The range of our home automation products simply and efficiently enables you to remotely manage your home with ease, even when you are away from your abode.</p>
                             </div>
                         </div>
                         <div className='app-reason-points-desc col-xs-12 col-sm-12 col-md-6 col-lg-6 app-reason-point-two' style={{borderRight:"none"}}>
                             <h1 className='app-reason-points-desc-number'>02</h1>
                             <div className='app-reason-points-desc-detail'>
                             <p className='font-headings app-reason-points-title1'>
-                            Lorem ipsum dolor sit amet,
+                            Energy Efficient
                             </p>
-                            <p className='font-paragraphs app-reason-points-title2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                            <p className='font-paragraphs app-reason-points-title2'>By keeping our customer's comfort and convenience in mind, our products are designed to save energy and lessen the carbon footprint.</p>
                             </div>
                         </div>
                         <div className='app-reason-points-desc col-xs-12 col-sm-12 col-md-6 col-lg-6' style={{borderBottom:"none"}}>
                             <h1 className='app-reason-points-desc-number'>03</h1>
                             <div className='app-reason-points-desc-detail'>
                             <p className='font-headings app-reason-points-title1'>
-                            Lorem ipsum dolor sit amet,
+                            Security
                             </p>
-                            <p className='font-paragraphs app-reason-points-title2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                            <p className='font-paragraphs app-reason-points-title2'>We prioritize the privacy and security of our customer's personal information, by implementing comprehensive measures to safeguard data.
+                            </p>
                             </div>
                         </div>
                         <div className='app-reason-points-desc col-xs-12 col-sm-12 col-md-6 col-lg-6 app-reason-point-two' style={{borderBottom:"none", borderRight:"none"}}>
                             <h1 className='app-reason-points-desc-number'>04</h1>
                             <div className='app-reason-points-desc-detail'>
                             <p className='font-headings app-reason-points-title1'>
-                            Lorem ipsum dolor sit amet,
+                            Easy Installation
                             </p>
-                            <p className='font-paragraphs app-reason-points-title2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                            <p className='font-paragraphs app-reason-points-title2'>Our products are designed while keeping user-friendliness in mind, providing you with an intuitive and hassle-free installation and setup experience for your easy home automation experience.</p>
                             </div>
                         </div>
                     </div>

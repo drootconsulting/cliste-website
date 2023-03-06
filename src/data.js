@@ -27,6 +27,26 @@ export const teams_data_1=[
         name:"abc",
         position:"Product Manager"
     },
+    {
+        image_url:group15,
+        name:"abc",
+        position:"Data Engineer"
+    },
+    {
+        image_url:group16,
+        name:"abc",
+        position:"Machine Learning"
+    },
+    {
+        image_url:group17,
+        name:"abc",
+        position:"Hardware Engineer"
+    },
+    {
+        image_url:group18,
+        name:"abc",
+        position:"Human Resource"
+    },
 ]
 
 export const teams_data_2=[

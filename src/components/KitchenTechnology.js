@@ -10,7 +10,7 @@ const KitchenTechnology=() => {
       <h5 className="kitchen-tech-heading font-headings">
         Effortless blending of smart kitchen technology
       </h5>
-      <div className="row">
+      <div className="row kitchen-tech">
         <div className='col-xs-12 col-sm-12 col-md-4 col-lg-4'>
           <img src={chartcircle} alt="" className='kitchen-tech-image'/>
           <div className='kitchen-tech-card-body'>

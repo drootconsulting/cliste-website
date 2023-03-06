@@ -2,7 +2,7 @@ import './App.css';
 import LandingPage from './components/LandingPage';
 import TechnologyPage from './components/TechnologyPage';
 import ApplicationPage from './components/ApplicationPage';
-import ResourcesPage from './components/ResourcesPage';
+import ResourcesPage from './components/Team';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import WaitListPage from './components/WaitListPage';
 import PrivacyPolicy from './components/PrivacyPolicy';
@@ -13,13 +13,14 @@ function App() {
     <div className='App'>
       <BrowserRouter>
       <Routes>
-        <Route path="/technology" element={<TechnologyPage />} />
+        {/* <Route path="/technology" element={<TechnologyPage />} />
         <Route path="/application" element={<ApplicationPage />} />
-        <Route path="/resources" element={<ResourcesPage />} />
         <Route path="/waitlist" element={<WaitListPage />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/contact" element={<Contact />} /> 
+        <Route path="/home" element={<LandingPage />} />  */}
+       
+        <Route path="/" element={<WaitListPage />} />
       </Routes>
     </BrowserRouter>
   

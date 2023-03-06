@@ -30,10 +30,13 @@
 
 @media screen and (max-width: 768px){
     .kitchen-wrapper{
-        padding:1.5rem 1rem;
+        padding:3.5rem 1rem;
     }
     .kitchen-tech-heading{
         font-size: 32px;
+    }
+    .kitchen-tech{
+        padding:0 36px;
     }
 
 }
