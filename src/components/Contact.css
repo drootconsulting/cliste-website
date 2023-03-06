@@ -1,0 +1,90 @@
+.contact-us-section{
+    padding:5rem 12rem; 
+    
+}
+.contact-us-title{
+    font-size: 36px;
+    font-weight:700;
+}
+.contact-us-text{
+    font-size: 20px;
+    font-weight:400;
+}
+.contact-us-headings{
+    margin-bottom:8.5rem;
+    text-align: center;
+}
+.contact-us-live-chat img{
+    width:100%;
+    
+}
+.contact-us-form{
+    padding-left:2.25rem;
+}
+.contact-us-form-heading{
+    font-size: 16px;
+    font-weight:400;
+    text-align: left;
+}
+
+.privacypolicy-link {
+    text-decoration: underline;
+    color: var(--color-primary);
+    text-underline-offset: 2px;
+}
+.contact-us-form-submit-btn{
+    color:rgba(250, 250, 250, 1);
+    background-color: rgba(49, 92, 102, 0.5);
+    padding:12px 79px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 4px;
+}
+.contact-us-form-btn{
+    margin-top:3rem;
+    text-align: left;;
+}
+
+.contact-us-desktop-view{
+    display: block !important;
+}
+
+@media (min-width: 768px) and (max-width: 1440px){
+    .contact-us-section{
+        padding:5rem 2.5rem;
+        
+    }
+    .contact-us-form-btn{
+        margin-top:1.5rem;
+        
+    }
+}
+
+@media screen and (max-width:768px){
+    .contact-us-desktop-view{
+        display:none !important;
+    }
+
+    .contact-us-section{
+        padding:1.75rem 1rem 5rem 1rem;
+        
+    }
+    .contact-us-headings{
+        margin-bottom:2.5rem;
+    }
+    .contact-us-form{
+        padding:0
+    }
+    .contact-us-sub-section{
+        margin-left: 0;
+        margin-right:0;
+    }
+    .contact-us-form-btn{
+        margin-top:1.8rem;
+        
+    }
+
+    .contact-us-text{
+        font-size: 16px;
+    }
+}

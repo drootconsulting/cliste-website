@@ -1,0 +1,56 @@
+.carousel-control-prev-icon{
+    background-image: url("../assets/images/arrowcircleprev.svg");
+    mix-blend-mode: difference;
+
+}
+
+.carousel-control-next-icon{
+    background-image: url("../assets/images/arrowcircledown.svg");
+    transform: rotateY(180deg);
+
+}
+
+
+@media screen and (max-width:768px){
+      .w-100 {
+        width: 100% !important;
+        height: 340px;
+      }
+      .carousel-control-prev{
+        position:absolute;
+        bottom: -115%;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 15%;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        background: 0 0;
+        border: 0;
+        opacity: 1;
+        transition: opacity .15s ease;
+      }
+      .carousel-control-next{
+      position: absolute;
+      bottom: -115%;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 15%;
+      padding: 0;
+      color: #fff;
+      text-align: center;
+      background: 0 0;
+      border: 0;
+      opacity: 1;
+      transition: opacity .15s ease;
+      right:75%
+    }
+
+    
+   
+
+}

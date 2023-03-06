@@ -1,0 +1,81 @@
+.tech-cards{
+    background:var(--color-tertiary);
+    color:var(--color-primary);
+    text-align: left;
+    padding-left:0
+ 
+}
+.tech-card-heading{
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+.tech-card-text{
+    font-size: 20px;
+    font-weight: 400;
+    color:var(--color-primary);
+}
+.tech-content{
+    margin-bottom: 40px;
+}
+.learning-content{
+    margin-top: 60px;
+}
+.learn-heading{
+    font-size: 48px;
+    font-weight: 700;
+    color:#363638
+}
+.learn-content img{
+    margin-top: 3.5rem
+}
+
+.learn-content{
+        margin-bottom:10rem;
+}
+.tech-cards-content{
+    padding-left:0
+}
+.learning-text{
+    padding-left:19rem;
+    padding-right:19rem;
+}
+.tech-card-fullheight{
+    height:100%;
+}
+
+.tech-card-fullheight img{
+    height:98%;
+}
+
+@media screen and (max-width:768px){
+    .learn-content{
+        margin-bottom:5rem
+    }
+
+    .learn-content img{
+        margin-top:2rem
+    }
+    .learning-content{
+        margin-top:20px;
+    }
+    .learn-heading{
+        font-size: 24px;
+    }
+
+    .tech-card-heading{
+        font-size: 18px;
+    }
+    .tech-card-text{
+        font-size: 20px;
+    }
+    .tech-content{
+        margin-bottom:1rem
+    }
+
+    .learning-text{
+        padding-left:0;
+        padding-right:0;
+    }
+}

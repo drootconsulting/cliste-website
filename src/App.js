@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import LandingPage from './components/LandingPage';
+import TechnologyPage from './components/TechnologyPage';
+import ApplicationPage from './components/ApplicationPage';
+import ResourcesPage from './components/Team';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import WaitListPage from './components/WaitListPage';
+import PrivacyPolicy from './components/PrivacyPolicy';
+import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <BrowserRouter>
+      <Routes>
+        {/* <Route path="/technology" element={<TechnologyPage />} />
+        <Route path="/application" element={<ApplicationPage />} />
+        <Route path="/waitlist" element={<WaitListPage />} />
+        <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+        <Route path="/contact" element={<Contact />} /> 
+        <Route path="/home" element={<LandingPage />} />  */}
+       
+        <Route path="/" element={<WaitListPage />} />
+      </Routes>
+    </BrowserRouter>
+  
     </div>
   );
 }

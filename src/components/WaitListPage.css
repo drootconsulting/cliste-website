@@ -1,0 +1,298 @@
+.waitlist-body{
+    padding:2.5rem 5.6rem 7rem 5.6rem;
+    background-color: #315C66;
+    
+}
+
+.waitlist-title{
+    font-size: 65px;
+    font-weight:800;
+    text-align: left;
+    line-height: 70px;
+    margin-bottom:0
+    
+}
+
+.waitlist-sub-title{
+    font-size: 40px;
+    font-weight:700;
+    text-align: left;
+    line-height: 70px;
+    margin-bottom:0
+}
+.waitlist-intro{
+    color:var(--color-tertiary);
+    align-items: center;
+}
+.waitlist-text{
+    text-align: left;
+    line-height: 33px;
+    margin-top:36px;
+    margin-bottom:28px;
+    line-height:28px;
+}
+.waitlist-form{
+    display:flex;
+    width:100%
+}
+.waitlist-submit-btn{
+    padding:0 12px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color:rgba(249, 70, 28, 0.5);
+    color:#fff;
+    border:none;
+    border-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    line-height:20px;
+    width:117px;
+   
+}
+/* .get-updates-field{
+    margin:1.6rem auto 8.25rem auto ;
+} */
+.get-updates-field-input-waitlist{
+    padding: 16px;
+    font-weight: 400;
+    width:70%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+
+}
+
+.app-reason-content{
+        background-image: url("../assets/images/waitlist-backgrndimg.png");
+        width:100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        
+}
+.app-reason-text{
+    padding:3.75rem 5.6rem 6.56rem 5.6rem;
+   
+}
+
+.app-reason-title{
+    color:rgba(49, 92, 102, 1);
+    font-size: 45px;
+    font-weight:700;
+    text-align: left;
+    line-height: 52px;
+    margin-bottom:0
+   
+}
+.app-reason-points{
+    text-align: left;
+    
+}
+.app-reason-points-desc{
+    display: flex;;
+    padding-right:11rem;
+    padding-bottom:10rem;
+    border-right:0.5px solid rgba(49, 92, 102, 0.5);
+    border-bottom :0.5px solid rgba(49, 92, 102, 0.5)
+}
+
+.app-reason-points-desc-number{
+    margin-right:8px;
+    color:rgba(49, 92, 102, 1);
+    font-size: 90px;
+    font-weight:900;
+    position:relative;
+    top:60px;
+    opacity:0.5
+}
+.app-reason-points-desc-detail{
+    position:relative;
+    top:117px;
+}
+
+.app-reason-points-desc-detail p{
+    margin-bottom:0;
+    
+}
+.app-reason-points-title1{
+    color:rgba(49, 92, 102, 1);
+    font-size: 32px;
+    font-weight:600;
+    margin-bottom:22px;
+
+}
+.waitlist-footer{
+    padding:1.5rem 5.6rem 1.5rem 5.6rem;
+    background:var(--color-secondary);
+}
+.waitlist-footer-text{
+    font-size:20px;
+    font-weight:400;
+    color:var(--color-tertiary);
+    line-height: 30px;
+    text-align: end;;
+}
+.waitlist-footer p{
+    margin-bottom: 0;
+}
+.app-reason-points-title2{
+    font-size:20px;
+    font-weight: 400;
+    line-height: 27px;
+    color:var(--color-secondary);
+}
+
+.waitlist-social-media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.waitlist-social-media-links img{
+    margin-right:12px;
+}
+.waitlist-kitchen-image img{
+    width:80%;
+  
+}
+.waitlist-kitchen-image{
+    text-align: right;
+}
+.app-reason-point-two{
+    padding-left:5rem;
+}
+@media (min-width: 768px) and (max-width: 1440px){
+    .waitlist-body{
+        padding:2.5rem 2.5rem 2.5rem 2.5rem;
+    }
+    .waitlist-title{
+        font-size: 50px;
+        font-weight:800;
+        margin-bottom:0;
+        line-height: 60px;
+    }
+    .waitlist-sub-title{
+        font-size: 25px;
+        font-weight:700;
+        line-height: 40px;
+    }
+    .app-reason-points-desc{
+        padding-right: 1rem;
+    }
+    .app-reason-text{
+        padding-left:3rem;
+        padding-right:3rem;
+    }
+    .app-reason-point-two{
+        padding-left:3rem;
+    }
+    .waitlist-kitchen-image img{
+        width:100%;
+      
+    }
+    .waitlist-title{
+        font-size: 45px;
+    }
+   
+}
+
+@media screen and (max-width:768px){
+    .waitlist-body{
+        padding:2rem 1.25rem
+    }
+    .waitlist-input{
+        margin-bottom:50px;
+    }
+    .waitlist-footer-text{
+        text-align: center;
+    }
+    .waitlist-social-media-links{
+        display:inline-block;
+        justify-content: center;
+        margin-top:6px; 
+    }
+    .waitlist-submit-btn{
+        padding:0 12px;
+        font-size: 14px;;
+    }
+
+    .waitlist-social-media-links img{
+        margin-right:6px;
+    }
+    .waitlist-footer-text{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .waitlist-title{
+        font-size:40px;
+       line-height:50px;
+        
+    }
+    .waitlist-sub-title{
+        font-size:25px;
+        line-height: 50px;
+    }
+    .waitlist-text{
+        margin-top:24px;
+    }
+    .app-reason-content{
+        padding:5rem 1.25rem 7rem 1.25rem
+    }
+
+    .app-reason-text{
+        padding:0
+    }
+    .app-reason-title{
+        font-size: 22px;
+    }
+    .app-reason-points-desc{
+        padding:0;
+        border:0
+    }
+    .app-reason-points-desc-number{
+        font-size:60px;
+    }
+    .app-reason-points-title1{
+        font-size: 18px;
+    }
+    .app-reason-points-title2{
+        font-size: 16px;;
+    }
+    .app-reason-points-desc{
+            margin-top:30px;
+    }
+    .app-reason-points-desc-number{
+        position:initial;
+    }
+    .app-reason-points-desc-detail{
+        position:relative;
+        top:39px
+    }
+    .form-control{
+        font-size: 14px;;
+        font-weight: 600;
+    }
+    .waitlist-footer{
+        padding:2rem 1.25rem;
+    }
+    .app-reason-points{
+        padding-left:12px;
+        padding-right:12px;
+    }
+    .waitlist-kitchen-image img{
+        width:100%;
+      
+    }
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 1440px){
+        .waitlist-submit-btn{
+            font-size: 1rem;
+        }
+
+
+}
+
