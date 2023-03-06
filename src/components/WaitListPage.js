@@ -20,7 +20,7 @@ const WaitListPage =()=>{
                                 Cliste</p>
                             <p className='font-headings waitlist-sub-title'>Coming soon !</p>
                             <p className='font-paragraphs waitlist-text'>
-                            Welcome to Cliste, the smart home automation company that simplifies your life and enhances your home experience with our cutting-edge products. Control your entire home with just a few taps on your smartphone, and manage your kitchen and home. </p>
+                            Welcome to Cliste, A home of smart home automation and kitchen management that’ll make you feel like a Michelin-starred chef. But don't worry, you don't need a French accent to use our products, just a smartphone and a sense of humor. </p>
                             <p className='font-paragraphs waitlist-text' style={{fontSize:"18px"}}>Join our waitlist now for exclusive updates and early access...!</p>
                           
                             <MailchimpSubscribe
