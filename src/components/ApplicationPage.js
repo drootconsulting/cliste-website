@@ -31,7 +31,7 @@ const ApplicationPage =()=>{
     const scrollDirection = useScrollDirection();
     return(
         <>
-         {scrollDirection==='up' && <Header selectedPageIdx={2}/>}
+         {scrollDirection==='up' && <Header selectedPageIdx={1}/>}
 
         <div className=' content app-feature-content'>
         <ControlledCarousel/>

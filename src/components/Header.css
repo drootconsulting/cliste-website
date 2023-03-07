@@ -1,11 +1,12 @@
-/* .navbar-desktop{
+.navbar-desktop{
     display: flex;
     justify-content: space-between;
   
 }
 
 .cliste-logo{
-    margin-right: 10px;
+    margin-right: 16px;
+    padding:4px 0 4px 10px;
 }
 
 .wrapper{
@@ -19,13 +20,12 @@
     width:100%
   }
 .page-nav{
-        width:34.3rem;
         background-color: rgba(242, 242, 242, 0.5);
         display: flex;
         justify-content: space-between;
         align-items: center;
         border-radius: 8px;
-        padding: 12px 24px;
+        padding: 12px 14px;
 }
 
 .icons-nav{
@@ -77,6 +77,9 @@
     padding-left: 10px;
     padding-right: 10px;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    line-height: 10px;
 }
 
 .nav-buttons-icon:hover{
@@ -94,6 +97,11 @@
     
 }
 
+.nav-buttons-icon p{
+    margin-bottom: 0px;
+    margin-right:10px;
+}
+
 .glassmorphism{
     backdrop-filter: blur(10px);
     background-color: rgba(242, 242, 242, 0.5);
@@ -108,9 +116,8 @@
     background-color: #fff;
 }
 .links{
-    margin-right:12px;
     border-radius: 8px;
-    padding:12px;
+    padding:12px 0;
 }
 
 .nav-buttons-app-icon{
@@ -169,7 +176,15 @@
     font-size: 24px;
     font-weight:600
 }
-@media screen and (min-width: 1100px) {
+
+.header-desktop{
+    display: block !important;
+}
+
+.header-mobile{
+    display: none !important;
+}
+/* @media screen and (min-width: 1100px) {
     .header-desktop{
             display: block !important;
         }
@@ -177,9 +192,9 @@
     .header-mobile{
             display: none !important;
     }
-}
+} */
 
-@media screen and (max-width: 1100px) {
+/* @media screen and (max-width: 1100px) {
     .header-desktop{
         display: none !important;
     }
@@ -187,7 +202,7 @@
     .header-mobile{
         display: block !important;
 }
-}
+} */
 
 @media screen and (min-width: 768px) and (max-width: 1440px){
     .wrapper{
@@ -206,4 +221,12 @@
         padding-left:1rem;
         padding-right:1rem;
     }
-} */
+
+    .header-desktop{
+        display: none !important;
+    }
+
+    .header-mobile{
+        display: block !important;
+}
+}

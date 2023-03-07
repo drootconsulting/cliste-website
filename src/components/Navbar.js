@@ -1,9 +1,6 @@
 import '../components/Navbar.css';
 import { Link } from "react-router-dom";
 import cliste_logo from '../assets/images/brandLogo.svg';
-import brandlogomobile from '../assets/images/brandlogomobile.png';
-import toggleMenu from '../assets/images/toggle-menu.svg';
-import crosstoggleicon from '../assets/images/crosstogglebutton.svg';
 import { useState } from 'react';
 import cartLogo from '../assets/images/cart.svg';
 const Navbar =({selectedPageIdx})=>{

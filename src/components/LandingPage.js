@@ -1,21 +1,19 @@
-import Navbar from '../components/Navbar';
+// import Navbar from '../components/Navbar';
 import '../components/LandingPage.css';
 import { Button } from 'react-bootstrap';
-import { Telephone, Cart,Play } from 'react-bootstrap-icons';
 import Partners from './Partners';
 import Footer from './Footer';
-import SenseProduct from './SenseProduct';
 import image1 from '../assets/images/machinelearning1.png';
-import {useState, useEffect} from "react";
-import ControlledCarousel from './CarousalComponent';
 import KitchenTechnology from './KitchenTechnology';
 import Team from './Team';
 import Technology from './TechnologyPage';
+import Header from './Header';
+import SenseProduct from './SenseProduct';
 const LandingPage =()=>{
     
     return (
       <>
-    <Navbar selectedPageIdx={0} />
+    <Header  />
 
         <div className="content desktop-view">
           <div className="row intro">
@@ -49,15 +47,16 @@ const LandingPage =()=>{
             </div>
           </div>
         </div>
+
         <div className="content mobile-view">
           <div className="row intro">
             <div className="font-headings col-xs-12 col-sm-12 col-md-6 col-lg-6">
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 hero-image">
                 <img src={image1} className="img-fluid" alt="" />
               </div>
-              <Button className="intro-btn font-paragraphs">
-                View Products
-              </Button>
+              <div className="heading ">
+                Cliste is <span style={{ color: "#F11E1E" }}>Innovating.</span>
+              </div>
               <p className="font-paragraphs text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -67,6 +66,9 @@ const LandingPage =()=>{
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
+              <Button className="intro-btn font-paragraphs">
+                View Products
+              </Button>
             </div>
           </div>
         </div>
@@ -96,7 +98,7 @@ const LandingPage =()=>{
                         </div>
                     </div>
                 </div> */}
-        {/* <SenseProduct text={"There’s an app for that"}/> */}
+        <SenseProduct text={"There’s an app for that"}/>
         <Team />
         {/* <div className='mockup-section'>
                 <div className='font-headings mockup-section-heading'>Cliste Sense at fleeting glance</div>

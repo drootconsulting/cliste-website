@@ -32,6 +32,11 @@
 .app-section-download{
     text-align: left;
     margin-top:28px;
+    display:flex;
+
+}
+.app-section-download-image{
+    padding:0px 12px 0 0;
 }
 
 .mobile-view{

@@ -4,6 +4,7 @@ import appstore from '../assets/images/appstore.png';
 import googleplay from '../assets/images/googleplay.png';
 import ControlledCarousel from './CarousalComponent';
 import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 const SenseProduct=({text})=>{
         return(
 
@@ -23,12 +24,12 @@ const SenseProduct=({text})=>{
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br />incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                         </p>
                         <div className='app-section-download'>
-                            <Button className='play-store-btn'>
-                            <img src={googleplay} alt="Google Play Store"/>
-                            </Button>
-                            <Button className='play-store-btn'>
-                                <img src={appstore} alt="App Store"/>
-                                </Button>
+                            {/* <Button className='play-store-btn'> */}
+                            <Link to="/" className='app-section-download-image'><img src={googleplay} alt="Google Play Store" className="img-fluid "/></Link>
+                            {/* </Button> */}
+                            <Link to="/" className='app-section-download-image'>
+                                <img src={appstore} alt="App Store" className="img-fluid"/>
+                                </Link>
                         </div>
 
                     </div>

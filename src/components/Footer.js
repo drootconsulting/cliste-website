@@ -7,11 +7,14 @@ const Footer =()=>{
       <div className="footer">
         <div className="row">
           <div className="col-xs-12 col-sm-12 col-md-5 col-lg-5 font-headings footer-nav-links">
-            <p className="font-headings footer-heading">
+            <h6 className="font-headings footer-heading">
               Go to <ArrowRight className="right-arrow-icon" />
-            </p>
+            </h6>
             <div className='row'>
                 <div className='col-xs-12 col-sm-6 col-md-4 col-lg-4 footer-go-to-links'>
+                    <p className='font-headings'><Link to="/prouct">Product</Link></p>
+                    <p className='font-headings'><Link to="/application">Application</Link></p>
+                    <p className='font-headings'><Link to="/store">Visit store</Link></p>
                     <p className='font-headings'><Link to="/">FAQs</Link></p>
                     <p className='font-headings'><Link to="/">Blogs </Link></p>
                     <p className='font-headings'><Link to="/">Partner with us</Link></p>
@@ -33,9 +36,9 @@ const Footer =()=>{
             <p className='font-headings'><Link to="/">Facebook</Link></p>
           </div>
           <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 contact-section footer-contact">
-            <div className="footer-heading font-headings">
+            <h6 className="footer-heading font-headings">
               Get Cliste updates.
-            </div>
+            </h6>
             <p className="font-paragraphs footer-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               <br /> sed do eiusmod tempor incididunt ut labore et dolore <br />

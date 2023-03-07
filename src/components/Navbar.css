@@ -1,4 +1,4 @@
-.navbar-desktop{
+/* .navbar-desktop{
     display: flex;
     justify-content: space-between;
   
@@ -170,8 +170,6 @@
 }
 
 
-
-
 @media screen and (min-width: 768px) and (max-width: 1440px){
     .wrapper{
         padding:2.5rem 2.5rem;
@@ -183,4 +181,4 @@
     .wrapper{
         padding:1.75rem 1rem 0 1rem;
     }
-}
+} */

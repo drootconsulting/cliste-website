@@ -12,7 +12,7 @@ const KitchenTechnology=() => {
       </h5>
       <div className="row kitchen-tech">
         <div className='col-xs-12 col-sm-12 col-md-4 col-lg-4'>
-          <img src={chartcircle} alt="" className='kitchen-tech-image'/>
+          <img src={chartcircle} alt="" className='kitchen-tech-image img-fluid'/>
           <div className='kitchen-tech-card-body'>
           <h6 className='kitchen-tech-card-body-heading font-headings'>Lorem ipsum dolor sit amet</h6>
           <p className='kitchen-tech-card-body-text font-paragraphs'>
@@ -24,7 +24,7 @@ const KitchenTechnology=() => {
         </div>
 
         <div className='col-xs-12 col-sm-12 col-md-4 col-lg-4'>
-          <img src={graph} alt="" className='kitchen-tech-image'/>
+          <img src={graph} alt="" className='kitchen-tech-image img-fluid'/>
           <div className='kitchen-tech-card-body'>
           <h6 className=' kitchen-tech-card-body-heading font-headings'>Lorem ipsum dolor sit amet</h6>
           <p className='kitchen-tech-card-body-text font-paragraphs'>
@@ -35,7 +35,7 @@ const KitchenTechnology=() => {
           </div>
         </div>
         <div className='col-xs-12 col-sm-12 col-md-4 col-lg-4'>
-          <img src={box2} alt="" className='kitchen-tech-image'/>
+          <img src={box2} alt="" className='kitchen-tech-image img-fluid'/>
           <div className='kitchen-tech-card-body'>
           <h6 className='kitchen-tech-card-body-heading font-headings'>Lorem ipsum dolor sit amet</h6>
           <p className='kitchen-tech-card-body-text font-paragraphs'>
