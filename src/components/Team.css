@@ -1,152 +1,175 @@
-.story-content{
+.story-content {
     text-align: center;
-    padding:4.5rem 12rem;
-    color:var(--color-tertiary);
+    padding: 4.5rem 12rem;
+    color: var(--color-tertiary);
 }
 
-.team{
+.team {
     background-color: #048B9E;
 }
 
-.founder-message-video{
-    width:100%;
+.founder-message-video {
+    width: 100%;
 }
 
-.team-content{
-    margin-bottom:12px;
-    padding:0 39px;
+.team-content {
+    margin-bottom: 12px;
+    padding: 0 39px;
 }
-.story-content-title{
+
+.story-content-title {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 8px;
 }
-.founder-message-title{
+
+.founder-message-title {
     font-size: 48px;
     font-weight: 700;
-    margin-bottom:24px;
+    margin-bottom: 24px;
 }
-.founder-message-text{
+
+.founder-message-text {
     font-size: 20px;
     font-weight: 400;
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
 
-.founder-message{
-    padding:4.5rem 12rem;
-    color:var(--color-tertiary);
+.founder-message {
+    padding: 4.5rem 12rem;
+    color: var(--color-tertiary);
 }
 
-.team-section{
-    padding-top:9rem ;
-    position:relative;
+.team-section {
+    padding-top: 4.5rem;
+    position: relative;
 }
 
-.team-section-heading{
-    color:var(--color-tertiary);
+.team-section-heading {
+    color: var(--color-tertiary);
     font-size: 48px;
     font-weight: 700;
-    margin-bottom:3.5rem
+    margin-bottom: 3.5rem
 }
-.team-cards{
+
+.team-cards {
     background-color: #048B9E;
     text-align: center;
-    
+
 }
-.team-cards img{
-    margin-right:auto;
-    margin-left:auto
+
+.team-cards img {
+    margin-right: auto;
+    margin-left: auto
 }
-.team-card-title{
-    padding-top:12px
+
+.team-card-title {
+    padding-top: 12px
 }
-.team-card-heading-1{
-    color:var(--color-tertiary);
+
+.team-card-heading-1 {
+    color: var(--color-tertiary);
     font-size: 18px;
     font-weight: 600;
 }
-.team-card-heading-2{
-    color:var(--color-tertiary);
+
+.team-card-heading-2 {
+    color: var(--color-tertiary);
     font-size: 18px;
     font-weight: 700;
 }
 
-.team-section-2{
-    margin-top:6rem;
+.team-section-2 {
+    margin-top: 6rem;
 }
 
-.sticky-box{
+.sticky-box {
     background-color: #315C66;
-    padding:50px;
-    position:absolute;
-    top:107%;
-    left:10%;
-    width:80%
-    
+    padding: 50px;
+    position: absolute;
+    top: 107%;
+    left: 10%;
+    width: 80%
 }
-.sticky-box-heading{
-    color:var(--color-tertiary);
+
+.sticky-box-heading {
+    color: var(--color-tertiary);
     font-size: 48px;
     font-weight: 700;
 
 }
-.sticky-box-text{
-    font-size:20px;
-    font-weight:400;
-    color:var(--color-tertiary);
-}
-.team-section-1{
-    margin-bottom:120px;
-}
-.story-text{
+
+.sticky-box-text {
     font-size: 20px;
-    font-weight:400
+    font-weight: 400;
+    color: var(--color-tertiary);
 }
 
-@media screen and (max-width:768px){
-    .story-content-title{
-        font-size:28px;
+.team-section-1 {
+    margin-bottom: 120px;
+}
+
+.story-text {
+    font-size: 20px;
+    font-weight: 400
+}
+
+@media screen and (max-width:768px) {
+    .story-content-title {
+        font-size: 28px;
     }
 
-    .story-text{
-        font-size:16px;
+    .story-text {
+        font-size: 16px;
     }
-    .story-content{
+
+    .story-content {
         padding: 3.5rem 1rem 3.5rem 1rem;
     }
-    .founder-message-title{
-        font-size:28px;
+
+    .founder-message-title {
+        font-size: 28px;
     }
-    .founder-message-text{
-        font-size: 16px;;
+
+    .founder-message-text {
+        font-size: 16px;
+        ;
     }
-    .team-section{
-        padding:3rem 0 3rem 0;
-        margin-bottom:7rem
+
+    .team-section {
+        padding: 3rem 0 3rem 0;
+        margin-bottom: 7rem
     }
-    .team-section-heading{
+
+    .team-section-heading {
         font-size: 32px;
-        margin-bottom:2rem;
+        margin-bottom: 2rem;
     }
-    .team-section-1{
-        margin-bottom:0;
+
+    .team-section-1 {
+        margin-bottom: 0;
     }
-    .founder-message{
-        padding:3.5rem 1rem 3.5rem 1rem;
+
+    .founder-message {
+        padding: 3.5rem 1rem 3.5rem 1rem;
     }
 }
-@media (min-width: 768px) and (max-width: 1440px){
-       .founder-message{
-        padding: 2.5rem;
-       }
 
-       .sticky-box{
+@media (min-width: 768px) and (max-width: 1440px) {
+    .founder-message {
+        padding: 2.5rem;
+    }
+
+    .story-content {
+        padding: 2.5rem 12rem;
+    }
+
+    .sticky-box {
         background-color: #315C66;
-        padding:50px;
-        position:absolute;
-        top:100%;
-        left:10%;
-        width:80%
-        
+        padding: 50px;
+        position: absolute;
+        top: 100%;
+        left: 10%;
+        width: 80%
     }
 }

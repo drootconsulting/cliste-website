@@ -1,0 +1,19 @@
+.app-section-download-text {
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.mockup-video {
+    line-height: 32px;
+}
+
+.app-section-cart-logo {
+    margin-right: 12px;
+}
+
+@media screen and (max-width:768px) {
+    .app-section-image-video {
+        flex-direction: column-reverse;
+        padding-top: 0px;
+    }
+}

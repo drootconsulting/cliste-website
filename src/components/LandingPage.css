@@ -84,16 +84,11 @@
     font-size: 48px;
     font-weight: 700;
     color:var(--color-tertiary);
-    margin-bottom:3rem
 }
 .mockup-section-text{
     color:var(--color-tertiary);
     font-size: 20px;
     font-weight: 400;
-    margin-bottom:82.4px;
-}
-.mockup-section-detail{
-    margin-bottom: 56px;
 }
 .mockup-video{
     background: var(--color-tertiary);
@@ -242,7 +237,7 @@
     padding:5rem 2.5rem;
  }
  .mockup-section{
-    padding:5rem 2.5rem;
+    padding:2.5rem 2.5rem;
  }
  .mockup-section-text{
     text-align: left;

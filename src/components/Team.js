@@ -1,9 +1,9 @@
 import '../components/Team.css';
-import { teams_data_1, teams_data_2 } from "../data";
-import image1 from '../assets/images/machinelearning1.png';
+import { teams_data_1 } from "../data";
+import image1 from '../assets/images/image.png';
 const Team = () => {
-    return (
-      <>
+  return (
+    <>
       <div className='team'>
         <div className="story-content">
           <h2 className="font-headings story-content-title">Cliste Story</h2>
@@ -65,32 +65,6 @@ const Team = () => {
                 );
               })}
             </div>
-            {/* <div className="row">
-            {teams_data_2.map((team, index) => {
-              return (
-                <div
-                  className="team-content col-xs-6 col-sm-6 col-md-6 col-lg-3"
-                  key={index}
-                >
-                  <div className="card team-cards">
-                    <img
-                      src={team.image_url}
-                      className="card-img-top"
-                      alt="..."
-                    />
-                    <div className="card-body team-card-title">
-                      <h5 className="card-title font-headings team-card-heading-1">
-                        {team.name}
-                      </h5>
-                      <h5 className="card-title font-headings team-card-heading-2">
-                        {team.position}
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
-          </div> */}
             <div className="sticky-box">
               <h2 className="font-headings sticky-box-heading">Join us</h2>
               <p className="font-paragraphs sticky-box-text">
@@ -102,9 +76,9 @@ const Team = () => {
             </div>
           </div>
         </div>
-        </div>
-      </>
-    );
+      </div>
+    </>
+  );
 }
 
 export default Team;

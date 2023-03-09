@@ -1,105 +1,113 @@
-.app-section{
-    padding:80px 12rem;
-    background: var(--color-secondary);
+.app-section {
+    padding: 80px 12rem;
+    background-color: var(--color-secondary);
     text-align: center;
 }
 
-.app-section-sub-heading{
+.app-section-sub-heading {
     font-size: 32px;
     font-weight: 500;
-    color:var(--color-tertiary);
+    color: var(--color-tertiary);
     margin-bottom: 30px;
 }
 
-.app-section-text{
-    color:var(--color-tertiary);
+.app-section-text {
+    color: var(--color-tertiary);
     font-size: 20px;
     font-weight: 400;
-    margin-bottom:82.4px;
 }
 
-.app-section-heading{
+.app-section-heading {
     text-align: center;
     font-size: 48px;
     font-weight: 700;
-    color:var(--color-tertiary);
-    margin-bottom:23px
-}
-.app-section-image-video{
-    justify-content: space-between;
+    color: var(--color-tertiary);
+    margin-bottom: 23px
 }
 
-.app-section-download{
+.app-section-image-video {
+    justify-content: space-evenly;
+    padding-top: 56px;
+}
+
+.app-section-download {
     text-align: left;
-    margin-top:28px;
-    display:flex;
+    margin-top: 28px;
+    display: flex;
 
 }
-.app-section-download-image{
-    padding:0px 12px 0 0;
+
+.app-section-download-image {
+    padding: 0px 12px 0 0;
 }
 
-.mobile-view{
+.mobile-view {
     display: none !important;
 }
 
-.play-store-btn img{
-    width:100%
-}
-.app-section-video{
-    padding-left:2rem;
-    width:70%
+.play-store-btn img {
+    width: 100%
 }
 
-.mobile-app-image img{
-    width:100%
+.mobile-app-image img {
+    width: 100%
 }
 
+.app-section-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
 
-@media screen and (max-width:768px){
-    .app-section{
+@media screen and (max-width:768px) {
+    .app-section {
         padding: 3rem 1rem;
 
     }
 
-    .app-section-heading{
+    .app-section-heading {
         font-size: 32px;
     }
 
-    .app-section-sub-heading{
+    .app-section-sub-heading {
         font-size: 24px;
     }
 
-    .desktop-view{
+    .desktop-view {
         display: none !important;
     }
-    .app-section-video{
-        padding-left:1rem
+
+    .app-section-video {
+        padding-left: 1rem
     }
-    .mobile-view{
-        display:block !important;
-        margin-bottom:18px;
+
+    .mobile-view {
+        display: block !important;
+        margin-bottom: 18px;
         text-align: left;
-        font-size:16px;
+        font-size: 16px;
 
     }
-    .app-section-text{
-        margin-top:30px;
+
+    .app-section-text {
+        margin-top: 30px;
     }
-    .app-section-video{
-        width:100%
+
+    .app-section-video {
+        width: 100%
     }
 }
 
-@media screen and (max-width:440px){
-    .play-store-btn{
-        margin-bottom:24px;
+@media screen and (max-width:440px) {
+    .play-store-btn {
+        margin-bottom: 24px;
     }
-    
+
 }
 
-@media (min-width: 768px) and (max-width: 1440px){
-    .app-section{
-        padding:5rem 2.5rem;
+@media (min-width: 768px) and (max-width: 1440px) {
+    .app-section {
+        padding: 5rem 2.5rem;
     }
 }

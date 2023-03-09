@@ -12,18 +12,17 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Routes>
-        <Route path="/home" element={<LandingPage />} /> 
-        <Route path="/product" element={<ProductPage />} />
-        <Route path="/technology" element={<TechnologyPage />} />
-        <Route path="/application" element={<ApplicationPage />} />
-        <Route path="/waitlist" element={<WaitListPage />} />
-        <Route path="/privacypolicy" element={<PrivacyPolicy />} />
-        <Route path="/contact" element={<Contact />} />  
-        <Route path="/store" element={<Store />} /> 
-        <Route path="/" element={<WaitListPage />} />
-      </Routes>
-    </BrowserRouter>
+        <Routes>
+          <Route path="/home" element={<LandingPage />} />
+          <Route path="/product" element={<ProductPage />} />
+          <Route path="/application" element={<ApplicationPage />} />
+          <Route path="/waitlist" element={<WaitListPage />} />
+          <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/store" element={<Store />} />
+          <Route path="/" element={<WaitListPage />} />
+        </Routes>
+      </BrowserRouter>
       {/* <WaitListPage /> */}
     </div>
   );
