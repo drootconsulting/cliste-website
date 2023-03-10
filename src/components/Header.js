@@ -51,7 +51,7 @@ const Header = ({ selectedPageIdx }) => {
           </div>
           <div className="font-headings icons-nav ">
             <div className="glassmorphism  links">
-              <Link className={selectedPageIdx === 4 ? 'nav-buttons-icon selected' : 'nav-buttons-icon'}>
+              <Link className='nav-buttons-icon'>
                 <p className='font-headings'>
                   VISIT STORE
                 </p>
@@ -65,11 +65,13 @@ const Header = ({ selectedPageIdx }) => {
       <div className="wrapper-mobile header-mobile">
         <div className="nav-mobile">
           <div className="font-headings ">
-            <img
-              src={brandlogomobile}
-              alt="cliste"
-              className="cliste-logo-mobile"
-            ></img>
+            <Link to="/home">
+              <img
+                src={brandlogomobile}
+                alt="cliste"
+                className="cliste-logo-mobile"
+              ></img>
+            </Link>
           </div>
           <div className="font-headings">
             <nav className="navbar">

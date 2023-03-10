@@ -67,12 +67,12 @@ const ProductPage = () => {
             Cliste Sense at fleeting glance
           </div>
           <div className="row app-section-image-video">
-            <div className="app-section-video col-xs-12 col-sm-12 col-md-9 col-lg-9">
+            <div className="mockup-section-video col-xs-12 col-sm-12 col-md-9 col-lg-9">
               <img src={image1} style={{ width: "100%" }} />
-              <div className="app-section-download">
+              <div className="mockup-section-download">
                 <Button className="mockup-video">
                   <img src={cartLogo} alt="cart logo" className='app-section-cart-logo' />
-                  <span className="app-section-download-text"> Get Cliste Sense</span>
+                  <span className="mockup-section-download-text"> Get Cliste Sense</span>
                 </Button>
               </div>
             </div>

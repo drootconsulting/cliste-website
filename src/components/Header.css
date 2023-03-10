@@ -26,7 +26,7 @@
     justify-content: space-between;
     align-items: center;
     border-radius: 8px;
-    padding: 12px 14px;
+    padding: 10px 14px;
 }
 
 .icons-nav {
@@ -84,10 +84,7 @@
 }
 
 .nav-buttons-icon:hover {
-    background-color: #fff;
     color: var(--color-primary);
-    border-radius: 27px;
-    padding: 4px, 10px;
 }
 
 .nav-buttons:active {
@@ -119,7 +116,7 @@
 
 .links {
     border-radius: 8px;
-    padding: 12px 0;
+    padding: 10px 0;
 }
 
 .nav-buttons-app-icon {

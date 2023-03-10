@@ -1,5 +1,5 @@
 import '../components/TechnologyPage.css'
-import image from '../assets/images/image.png';
+import MasonryCard from './MasonryCard';
 
 const Technology = () => {
     return (
@@ -8,7 +8,8 @@ const Technology = () => {
                 <div className="font-headings tech-adv-section-heading">
                     Technology in Cliste
                 </div>
-                <div className='row'>
+                <MasonryCard />
+                {/* <div className='row'>
                     <div className='tech-content col-xs-12 col-sm-12 col-md-8 col-lg-8'>
                         <div className="card tech-cards">
                             <img src={image} className="card-img-top" alt="..." style={{ borderRadius: '0', height: '34.3rem' }} />
@@ -28,9 +29,9 @@ const Technology = () => {
                         </div>
                     </div>
 
-                </div>
+                </div> */}
 
-                <div className='row'>
+                {/* <div className='row'>
                     <div className='col-xs-12 col-sm-12 col-md-8 col-lg-8'>
                         <div className='tech-content'>
                             <div className="card tech-cards">
@@ -61,10 +62,10 @@ const Technology = () => {
                         </div>
                     </div>
 
-                </div>
+                </div> */}
 
 
-                <div className='row'>
+                {/* <div className='row'>
                     <div className='tech-content col-xs-12 col-sm-12 col-md-8 col-lg-8'>
                         <div className="card  tech-cards">
                             <img src={image} className="card-img-top" alt="..." />
@@ -84,7 +85,7 @@ const Technology = () => {
                         </div>
                     </div>
 
-                </div>
+                </div> */}
             </div>
         </>
     )

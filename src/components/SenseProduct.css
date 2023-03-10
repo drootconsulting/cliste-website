@@ -2,6 +2,7 @@
     padding: 80px 12rem;
     background-color: var(--color-secondary);
     text-align: center;
+    line-height: 44px;
 }
 
 .app-section-sub-heading {
@@ -50,7 +51,14 @@
 }
 
 .mobile-app-image img {
-    width: 100%
+    width: 75%;
+    height: 86%;
+}
+
+.mobile-app-image {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .app-section-video {
@@ -58,12 +66,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    padding-left: 5%;
 }
 
 @media screen and (max-width:768px) {
     .app-section {
         padding: 3rem 1rem;
 
+    }
+
+    .app-section-download {
+        margin-top: 0px;
     }
 
     .app-section-heading {
@@ -76,10 +89,6 @@
 
     .desktop-view {
         display: none !important;
-    }
-
-    .app-section-video {
-        padding-left: 1rem
     }
 
     .mobile-view {
@@ -95,7 +104,8 @@
     }
 
     .app-section-video {
-        width: 100%
+        width: 100%;
+        padding: 12px;
     }
 }
 
@@ -108,6 +118,6 @@
 
 @media (min-width: 768px) and (max-width: 1440px) {
     .app-section {
-        padding: 5rem 2.5rem;
+        padding: 4.5rem 2.5rem;
     }
 }

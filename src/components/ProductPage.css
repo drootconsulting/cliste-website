@@ -11,9 +11,22 @@
     margin-right: 12px;
 }
 
+.mockup-section-download {
+    text-align: left;
+    margin-top: 24px;
+}
+
+.mockup-section-video {
+    padding-right: 5%;
+}
+
 @media screen and (max-width:768px) {
     .app-section-image-video {
         flex-direction: column-reverse;
         padding-top: 0px;
+    }
+
+    .mockup-section-video {
+        padding-right: 12px;
     }
 }
