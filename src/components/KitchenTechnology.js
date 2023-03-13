@@ -46,7 +46,7 @@ const KitchenTechnology=() => {
           </div>
         </div>
       </div>
-      <p className="kitchen-tech-card-body-text font-paragraphs">
+      <p className="kitchen-tech-card-body-text font-paragraphs" style={{marginBottom:0}}>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ? explore more that <Link to="/" style={{textDecoration:"none"}}>clistestore.com</Link>
       </p>
     </div>

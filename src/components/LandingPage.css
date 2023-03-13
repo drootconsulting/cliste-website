@@ -13,7 +13,7 @@
 .intro {
     /* padding-top: 128px; */
     text-align: left;
-    padding-bottom: 96px;
+    padding-bottom: 94px;
 }
 
 .text {
@@ -43,15 +43,15 @@
 
 .working {
     background-color: #048B9E;
-    padding: 80px 12rem;
+    padding: 4.5rem 12rem;
 }
 
 .working-heading {
     text-align: center;
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 700;
     color: var(--color-tertiary);
-    line-height: 46px;
+   
 }
 
 .card-detail {
@@ -81,29 +81,27 @@
 
 
 .mockup-section {
-    padding: 5rem 12rem;
-    background-color: var(--color-secondary);
+    padding: 4.5rem 12rem;
+    background-color: #E3E7EA;
     text-align: center;
+    line-height:32px;
+    color:var(--color-secondary);
 }
 
 .mockup-section-heading {
     text-align: center;
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 700;
-    color: var(--color-tertiary);
+    color:var(--color-secondary);
 }
 
-.mockup-section-text {
-    color: var(--color-tertiary);
-    font-size: 20px;
-    font-weight: 400;
-}
+
 
 .mockup-video {
-    background: var(--color-tertiary);
+    background-color: var(--color-secondary);
     padding: 10px;
     border: none;
-    color: var(--color-primary);
+    color: var(--color-tertiary);
     font-size: 16px;
     font-weight: 400;
     border-radius: 4px;
@@ -179,6 +177,8 @@
 @media screen and (max-width: 768px) {
     .heading {
         font-size: 36px;
+        margin-top:32px;
+        line-height:42px
     }
 
     .content {
@@ -190,11 +190,11 @@
     }
 
     .working {
-        padding: 3rem 1rem 3rem 1rem;
+        padding: 2rem 1rem 2rem 1rem;
     }
 
     .working-heading {
-        font-size: 32px;
+        font-size: 24px;
     }
 
     .card-detail {
@@ -202,7 +202,7 @@
     }
 
     .intro {
-        padding-bottom: 56px;
+        padding-bottom: 32px;
     }
 
     .working-card {
@@ -214,18 +214,14 @@
     }
 
     .mockup-section {
-        padding: 3rem 1rem 3rem 1rem;
+        padding: 2rem 1rem 2rem 1rem;
     }
 
     .mockup-section-heading {
-        font-size: 32px;
+        font-size: 24px;
         margin-bottom: 16px;
     }
 
-    .mockup-section-text {
-        text-align: left;
-        margin-bottom: 30px;
-    }
 
     .mockup-section-detail {
         margin-bottom: 0
@@ -259,6 +255,12 @@
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
     }
+    .card-heading{
+        font-size:18px;
+    }
+    .card-text{
+        font-size:16px;
+    }
 
 }
 
@@ -269,11 +271,12 @@
     }
 
     .working {
-        padding: 4.5rem 2.5rem;
+        padding: 3rem 2.5rem;
     }
 
     .mockup-section {
-        padding: 2.5rem 2.5rem;
+        padding: 3rem 2.5rem;
+        line-height:32px;
     }
 
     .mockup-section-text {
@@ -283,6 +286,12 @@
     .tech-adv-section {
         padding: 5rem 2.5rem;
     }
-}
+    .intro{
+        padding-bottom:3rem;
+    }
 
+    .card-detail{
+            margin-top:28px;
+    }
+}
 @media (min-width: 768px) and (max-width: 1100px) {}

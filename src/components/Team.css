@@ -2,6 +2,7 @@
     text-align: center;
     padding: 4.5rem 12rem;
     color: var(--color-tertiary);
+    line-height:32px;
 }
 
 .team {
@@ -18,13 +19,13 @@
 }
 
 .story-content-title {
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 700;
-    margin-bottom: 8px;
+    margin-bottom: 24px;
 }
 
 .founder-message-title {
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 700;
     margin-bottom: 24px;
 }
@@ -38,18 +39,19 @@
 .founder-message {
     padding: 4.5rem 12rem;
     color: var(--color-tertiary);
+    line-height:32px;
 }
 
 .team-section {
-    padding-top: 4.5rem;
+    padding-top: 9rem;
     position: relative;
 }
 
 .team-section-heading {
     color: var(--color-tertiary);
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 700;
-    margin-bottom: 3.5rem
+    margin-bottom: 2.1rem
 }
 
 .team-cards {
@@ -86,10 +88,10 @@
 .sticky-box {
     background-color: #315C66;
     padding: 50px;
-    position: absolute;
+    /* position: absolute;
     top: 107%;
-    left: 10%;
-    width: 80%
+    left: 10%; */
+    /* width: 80% */
 }
 
 .sticky-box-heading {
@@ -117,6 +119,7 @@
 @media screen and (max-width:768px) {
     .story-content-title {
         font-size: 28px;
+        margin-bottom:22px;
     }
 
     .story-text {
@@ -124,20 +127,21 @@
     }
 
     .story-content {
-        padding: 3.5rem 1rem 3.5rem 1rem;
+        padding: 2rem 1rem 2rem 1rem;
     }
 
     .founder-message-title {
         font-size: 28px;
+        margin-bottom:22px
     }
 
     .founder-message-text {
         font-size: 16px;
-        ;
+        margin-bottom:22px;
     }
 
     .team-section {
-        padding: 3rem 0 3rem 0;
+        padding: 2.5rem 0 2rem 0;
         margin-bottom: 7rem
     }
 
@@ -151,7 +155,11 @@
     }
 
     .founder-message {
-        padding: 3.5rem 1rem 3.5rem 1rem;
+        padding: 2rem 1rem 2rem 1rem;
+    }
+    .team-content{
+        padding:0 16px;
+        width:50%
     }
 }
 
@@ -161,15 +169,18 @@
     }
 
     .story-content {
-        padding: 2.5rem 12rem;
+        padding: 3rem 12rem;
     }
 
     .sticky-box {
         background-color: #315C66;
         padding: 50px;
-        position: absolute;
+        /* position: absolute;
         top: 100%;
         left: 10%;
-        width: 80%
+        width: 80% */
+    }
+    .team-section{
+        padding-top:3rem;
     }
 }

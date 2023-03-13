@@ -1,9 +1,5 @@
 import '../components/WaitListHeader.css';
 import brandLogoWhite from '../assets/images/brandLogoWhite.svg';
-import linkedInLogo from '../assets/images/linkedIn.svg';
-import InstaLogo from '../assets/images/insta.svg';
-import facebookLogo from '../assets/images/facebook.png';
-import twitterLogo from '../assets/images/twitter.svg';
 
 const WaitListHeader = ()=>{
 
